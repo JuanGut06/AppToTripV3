@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Resources.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/Registro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.Registro.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Registro.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Registro.xaml
+
 [C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/Splash.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.Splash.xaml

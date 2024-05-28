@@ -1,4 +1,6 @@
-﻿namespace AppToTripV3
+﻿using AppToTripV3.Views;
+
+namespace AppToTripV3
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new Login();
         }
     }
 }

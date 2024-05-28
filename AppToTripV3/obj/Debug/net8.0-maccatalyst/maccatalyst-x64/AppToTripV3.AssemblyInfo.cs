@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppToTripV3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+88821a2cba44597f42d95c67f55419a7991100bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppToTripV3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppToTripV3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppToTripV3.Views.Registro"
+             xmlns:Controlls="clr-namespace:AppToTripV3.Controles" 
+             xmlns:Recursos="clr-namespace:AppToTrip.Recursos.RecursosIdioma"                    
+             BackgroundColor="White">
+    <Grid>
+        <ScrollView BackgroundColor="White">
+            <Grid BackgroundColor="White" >
+                <Image Source="nube.png" VerticalOptions="End" BackgroundColor="Transparent"/>
+                <Image Source="avion.png" VerticalOptions="Start" BackgroundColor="Transparent"/>
+                <StackLayout Padding="20" Margin="0" Spacing="0" BackgroundColor="Transparent">
+                    <ImageButton Source="ic_volver.png" Clicked="ImageButton_Clicked" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"  BackgroundColor="Transparent"/>
+                    <Label Margin="25,10,0,0" Text="{x:Static Recursos:appRecursos.registraTusDatos}" TextColor="{StaticResource Key=BlueDarks}" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center"/>
+                    <Frame CornerRadius="15" Margin="0,30,0,0" Padding="20,0,20,0"  BackgroundColor="White" HasShadow="False" IsClippedToBounds="true" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Grid BackgroundColor="Transparent">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Margin="0,8,0,8"  Source="ic_nombre.png" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                            <Controlls:CustomEntry Grid.Column="1" Margin="10,13,0,13" TextColor="{StaticResource Key=BlackApp}" Text="{Binding EntNombre, Mode=TwoWay}" Keyboard="Text" PlaceholderColor="{StaticResource Key=GrayApp}" MaxLength="50" Placeholder="{x:Static Recursos:appRecursos.nombre}" FontSize="12"/>
+                        </Grid>
+                    </Frame>
+                    <Frame CornerRadius="15" Margin="0,20,0,0" Padding="20,0,20,0"  BackgroundColor=" White" HasShadow="False" IsClippedToBounds="true" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Grid BackgroundColor="Transparent">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Margin="0,8,0,8"  Source="ic_correoelec.png" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                            <Controlls:CustomEntry Grid.Column="1" Margin="10,13,0,13" TextColor="{StaticResource Key=BlackApp}" Text="{Binding EntCorreo, Mode=TwoWay}" Keyboard="Email" PlaceholderColor="{StaticResource Key=GrayApp}" MaxLength="50" Placeholder="{x:Static Recursos:appRecursos.correo}" FontSize="12"/>
+                        </Grid>
+                    </Frame>
+                    <Frame CornerRadius="15" Margin="0,20,0,0" Padding="20,0,20,0"  BackgroundColor="White" HasShadow="False" IsClippedToBounds="true" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Grid BackgroundColor="Transparent">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Margin="0,8,0,8"  Source="ic_telefono.png" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+                            <Controlls:CustomEntry Grid.Column="1" Margin="10,13,0,13" TextColor="{StaticResource Key=BlackApp}" Text="{Binding EntCelular, Mode=TwoWay}" Keyboard="Numeric" PlaceholderColor="{StaticResource Key=GrayApp}" MaxLength="10" Placeholder="{x:Static Recursos:appRecursos.numeroCelular}" FontSize="12"/>
+                        </Grid>
+                    </Frame>
+                    <Frame CornerRadius="15" Margin="0,20,0,0" Padding="20,0,20,0"  BackgroundColor="White" HasShadow="False" IsClippedToBounds="true" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Grid BackgroundColor="Transparent">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Margin="0,8,0,8"  Source="ic_calendario.png" HorizontalOptions="Start"  BackgroundColor="Transparent"/>
+                            <Label Grid.Column="1" Margin="10,13,0,13" TextColor="{StaticResource Key=GrayApp}" FontSize="12" Text="{x:Static Recursos:appRecursos.fechaNacimiento}" IsVisible="{Binding VerLabelDate}">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding FocusDatePicker}" CommandParameter="{x:Reference FechaNacimiento}" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Controlls:CustomPickerDate x:Name="FechaNacimiento" Grid.Column="1" Margin="10,8,0,8" TextColor="{StaticResource Key=BlackApp}" Format="dd/MM/yyyy" MaximumDate="{Binding EntMaximumDate}" MinimumDate="{Binding EntMinimumDate}"  Date="{Binding EntFechaNacimiento, Mode=TwoWay}" FontSize="12" IsVisible="{Binding VerPickerDate}"/>
+                        </Grid>
+                    </Frame>
+                    <Grid Margin="15,30,15,0"  VerticalOptions="Fill" BackgroundColor="Transparent" ColumnSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <CheckBox Grid.Column="0" Color="{StaticResource Key=GrayApp}" IsChecked="{Binding IsCheckTerminos}"/>
+                        <Label Grid.Column="1" Margin="2" Text="{x:Static Recursos:appRecursos.aceptaTerminosYCondiciones}" FontSize="11" HorizontalTextAlignment="Center" TextColor="{StaticResource Key=BlackApp}"/>
+                    </Grid>
+                    <Label Margin="15,20,15,10" Text="{x:Static Recursos:appRecursos.politicaDePrivacidad}" HorizontalOptions="CenterAndExpand" TextDecorations="Underline" FontSize="11" TextColor="{StaticResource Key=RedApp}">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LinkPoliticas}" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Button Text="{x:Static Recursos:appRecursos.registrarme}" Margin="0,30,0,0" Padding="0,10,0,10" WidthRequest="200" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="12" Command="{Binding BtnRegistro}" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="0,10,0,10" IsVisible="{Binding StateConexion}">
+                        <Label Text="{x:Static Recursos:appRecursos.compruebaTuConexionAInternet}" TextColor="{StaticResource Key=BlackApp}"></Label>
+                        <Label Text="{x:Static Recursos:appRecursos.reintentar}" TextColor="{StaticResource Key=RedApp}" TextDecorations="Underline" FontAttributes="Bold">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding ReintentarConexion}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+        <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
+            <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" Padding="5" HasShadow="False" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50">
+                <ActivityIndicator IsRunning="true" Color="{StaticResource Key=BlueApp}" HeightRequest="40" WidthRequest="40" IsVisible="{Binding IsBusy}" />
+            </Frame>
+        </StackLayout>-->
+    </Grid>
+</ContentPage>

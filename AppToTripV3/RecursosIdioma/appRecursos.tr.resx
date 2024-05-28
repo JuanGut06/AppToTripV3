@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aceptar" xml:space="preserve">
+    <value>Kabul etmek</value>
+    <comment>General</comment>
+  </data>
+  <data name="aceptaTerminosYCondiciones" xml:space="preserve">
+    <value>Veri işleme politikalarının hüküm ve koşullarını kabul ediyorum.</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="apellido" xml:space="preserve">
+    <value>Soyadı</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="banderaIdioma" xml:space="preserve">
+    <value>ic_lg_tr</value>
+  </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Aramak</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="BuscarCuenta" xml:space="preserve">
+    <value>Hesabımı Kurtar</value>
+  </data>
+  <data name="cercaDeMi" xml:space="preserve">
+    <value>Bana yakın</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="circuitos" xml:space="preserve">
+    <value>yeniden dene</value>
+  </data>
+  <data name="codigoNOValido" xml:space="preserve">
+    <value>Girilen kod geçersiz.</value>
+  </data>
+  <data name="compruebaTuConexionAInternet" xml:space="preserve">
+    <value>İnternet bağlantınızı kontrol edin</value>
+    <comment>General</comment>
+  </data>
+  <data name="continuar" xml:space="preserve">
+    <value>Devam</value>
+  </data>
+  <data name="correo" xml:space="preserve">
+    <value>E-posta adresi</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="crearCircuito" xml:space="preserve">
+    <value>Devre Oluştur</value>
+  </data>
+  <data name="crearCuenta" xml:space="preserve">
+    <value>Hesap oluştur</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="cuentaNoEncontradaConEsteDispositivo" xml:space="preserve">
+    <value>Bu cihazda hesap bulunamadı</value>
+    <comment>LoginVm</comment>
+  </data>
+  <data name="elFormatoDeCorreoEsIncorrecto" xml:space="preserve">
+    <value>E-posta biçimi yanlış</value>
+    <comment>General</comment>
+  </data>
+  <data name="elFormatoDelNombreEsIncorrecto" xml:space="preserve">
+    <value>İsim biçimi yanlış</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="elFormatoDelTelefonoEsIncorrecto" xml:space="preserve">
+    <value>Telefon formatı yanlış</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="elUsuarioYaEstaRegistrado" xml:space="preserve">
+    <value>Kullanıcı zaten kayıtlı</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="estamosCargandoInformacion" xml:space="preserve">
+    <value>Şu anda bilgi yüklüyoruz, daha sonra tekrar kontrol edin.</value>
+    <comment>General</comment>
+  </data>
+  <data name="fechaNacimiento" xml:space="preserve">
+    <value>Doğum tarihi</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="ingresar" xml:space="preserve">
+    <value>Ödemek</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="ingresarCodigo" xml:space="preserve">
+    <value>Kodu girin</value>
+  </data>
+  <data name="ingresarConFacebook" xml:space="preserve">
+    <value>Facebook ile giriş yap</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="ingresarConGoogle" xml:space="preserve">
+    <value>Google ile giriş yap</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="introduceCorreo" xml:space="preserve">
+    <value>Hesabınızı aramak için e-posta adresinizi girin.</value>
+  </data>
+  <data name="labelCodigo4Digitos" xml:space="preserve">
+    <value>Sana gönderilen 4 haneli kodu girin </value>
+  </data>
+  <data name="labelCrearCircuito" xml:space="preserve">
+    <value>Gün sayısını seçin ve sizin için unutulmaz bir deneyim yaratmaktan memnuniyet duyarız </value>
+  </data>
+  <data name="macro" xml:space="preserve">
+    <value>Makro</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="noDejesCamposVacios" xml:space="preserve">
+    <value>Boş alanları bırakmayın</value>
+    <comment>General</comment>
+  </data>
+  <data name="nombre" xml:space="preserve">
+    <value>İsim</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="noSeEncontroUbicacion" xml:space="preserve">
+    <value>Konumunuz bulunamadı</value>
+    <comment>General</comment>
+  </data>
+  <data name="numeroCelular" xml:space="preserve">
+    <value>Cep telefonu numarası</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="oppsAlgoPaso" xml:space="preserve">
+    <value>Opps! Bir şey oldu</value>
+    <comment>General</comment>
+  </data>
+  <data name="politicaDePrivacidad" xml:space="preserve">
+    <value>Gizlilik Politikası</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="recuperarTuCuenta" xml:space="preserve">
+    <value>Hesabını Kurtar</value>
+  </data>
+  <data name="reenviarCodigo" xml:space="preserve">
+    <value>Kodu yeniden gönder</value>
+  </data>
+  <data name="registrarme" xml:space="preserve">
+    <value>kaydol</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="registraTusDatos" xml:space="preserve">
+    <value>Bilgilerinizi kaydedin</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="reintentar" xml:space="preserve">
+    <value>Yeniden dene</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="seleccioneUnaCategoria" xml:space="preserve">
+    <value>bir kategori seç</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="seleccioneUnDestino" xml:space="preserve">
+    <value>Gideceğiniz yeri seçiniz</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="seleccioneUnMacro" xml:space="preserve">
+    <value>Bir makro seçin</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="sitios" xml:space="preserve">
+    <value>Siteler</value>
+  </data>
+  <data name="terminosYcondiciones" xml:space="preserve">
+    <value>Şartlar ve koşullar</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="textAutor" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="textComprarCircuito" xml:space="preserve">
+    <value>Devre Satın Al</value>
+  </data>
+  <data name="textDescripcion" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="textDireccion" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="textDuracion" xml:space="preserve">
+    <value>Süre</value>
+  </data>
+  <data name="textEquipamiento" xml:space="preserve">
+    <value>Ekipman</value>
+  </data>
+  <data name="textHorario" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="textIniciarCircuito" xml:space="preserve">
+    <value>Devreyi Başlat</value>
+  </data>
+  <data name="textRango" xml:space="preserve">
+    <value>Yaş</value>
+  </data>
+  <data name="textRecomendaciones" xml:space="preserve">
+    <value>Tavsiyeler</value>
+  </data>
+  <data name="textReintentar" xml:space="preserve">
+    <value>Yeniden Dene</value>
+  </data>
+  <data name="textTelefono" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="textUbicacion" xml:space="preserve">
+    <value>yer</value>
+  </data>
+  <data name="tiempoRestante" xml:space="preserve">
+    <value>Kalan süre</value>
+  </data>
+  <data name="traductor" xml:space="preserve">
+    <value>Çevirmen</value>
+    <comment>traductor</comment>
+  </data>
+  <data name="volver" xml:space="preserve">
+    <value>Dönüş</value>
+    <comment>filtros.xaml</comment>
+  </data>
+</root>

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aceptar" xml:space="preserve">
+    <value>受け入れるために</value>
+    <comment>General</comment>
+  </data>
+  <data name="aceptaTerminosYCondiciones" xml:space="preserve">
+    <value>データ処理ポリシーの利用規約に同意します</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="apellido" xml:space="preserve">
+    <value>姓</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="banderaIdioma" xml:space="preserve">
+    <value>ic_lg_ja</value>
+  </data>
+  <data name="buscar" xml:space="preserve">
+    <value>探す</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="BuscarCuenta" xml:space="preserve">
+    <value>アカウントを回復する</value>
+  </data>
+  <data name="cercaDeMi" xml:space="preserve">
+    <value>私に近い</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="circuitos" xml:space="preserve">
+    <value>回路</value>
+  </data>
+  <data name="codigoNOValido" xml:space="preserve">
+    <value>入力されたコードは無効です。</value>
+  </data>
+  <data name="compruebaTuConexionAInternet" xml:space="preserve">
+    <value>インターネット接続を確認してください</value>
+    <comment>General</comment>
+  </data>
+  <data name="continuar" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="correo" xml:space="preserve">
+    <value>Eメール</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="crearCircuito" xml:space="preserve">
+    <value>サーキットを作成する</value>
+  </data>
+  <data name="crearCuenta" xml:space="preserve">
+    <value>アカウントを作成する</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="cuentaNoEncontradaConEsteDispositivo" xml:space="preserve">
+    <value>このデバイスでアカウントが見つかりません</value>
+    <comment>LoginVm</comment>
+  </data>
+  <data name="elFormatoDeCorreoEsIncorrecto" xml:space="preserve">
+    <value>メールフォーマットが間違っている</value>
+    <comment>General</comment>
+  </data>
+  <data name="elFormatoDelNombreEsIncorrecto" xml:space="preserve">
+    <value>名前の形式が間違っている</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="elFormatoDelTelefonoEsIncorrecto" xml:space="preserve">
+    <value>電話のフォーマットが間違っています</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="elUsuarioYaEstaRegistrado" xml:space="preserve">
+    <value>ユーザーはすでに登録されています</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="estamosCargandoInformacion" xml:space="preserve">
+    <value>現在、情報をアップロードしています。後でもう一度確認してください。</value>
+    <comment>General</comment>
+  </data>
+  <data name="fechaNacimiento" xml:space="preserve">
+    <value>生年月日</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="ingresar" xml:space="preserve">
+    <value>エンテロカイ</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="ingresarCodigo" xml:space="preserve">
+    <value>コードを入力してください</value>
+  </data>
+  <data name="ingresarConFacebook" xml:space="preserve">
+    <value>Facebookでログイン</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="ingresarConGoogle" xml:space="preserve">
+    <value>Googleでログイン</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="introduceCorreo" xml:space="preserve">
+    <value>アカウントを検索するためにメールアドレスを入力してください。</value>
+  </data>
+  <data name="labelCodigo4Digitos" xml:space="preserve">
+    <value>あなたに送信された4桁のコードを入力してください </value>
+  </data>
+  <data name="labelCrearCircuito" xml:space="preserve">
+    <value>日数を選択していただき、私たちはできる限りの素晴らしい体験をお届けいたします </value>
+  </data>
+  <data name="macro" xml:space="preserve">
+    <value>大きい</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="noDejesCamposVacios" xml:space="preserve">
+    <value>空のフィールドを残さないでください</value>
+    <comment>General</comment>
+  </data>
+  <data name="nombre" xml:space="preserve">
+    <value>名前</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="noSeEncontroUbicacion" xml:space="preserve">
+    <value>あなたの場所が見つかりませんでした</value>
+    <comment>General</comment>
+  </data>
+  <data name="numeroCelular" xml:space="preserve">
+    <value>携帯番号</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="oppsAlgoPaso" xml:space="preserve">
+    <value>おっと！何かあった</value>
+    <comment>General</comment>
+  </data>
+  <data name="politicaDePrivacidad" xml:space="preserve">
+    <value>個人情報保護方針</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="recuperarTuCuenta" xml:space="preserve">
+    <value>アカウントを回復してください</value>
+  </data>
+  <data name="reenviarCodigo" xml:space="preserve">
+    <value>コードを再送信する</value>
+  </data>
+  <data name="registrarme" xml:space="preserve">
+    <value>サインアップ</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="registraTusDatos" xml:space="preserve">
+    <value>あなたの詳細を登録する</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="reintentar" xml:space="preserve">
+    <value>リトライ</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="seleccioneUnaCategoria" xml:space="preserve">
+    <value>カテゴリーを選ぶ</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="seleccioneUnDestino" xml:space="preserve">
+    <value>目的地を選択してください</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="seleccioneUnMacro" xml:space="preserve">
+    <value>マクロを選択します</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="sitios" xml:space="preserve">
+    <value>サイト</value>
+  </data>
+  <data name="terminosYcondiciones" xml:space="preserve">
+    <value>規約と条件</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="textAutor" xml:space="preserve">
+    <value>著者</value>
+  </data>
+  <data name="textComprarCircuito" xml:space="preserve">
+    <value>回路を購入</value>
+  </data>
+  <data name="textDescripcion" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="textDireccion" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="textDuracion" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="textEquipamiento" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="textHorario" xml:space="preserve">
+    <value>スケジュール</value>
+  </data>
+  <data name="textIniciarCircuito" xml:space="preserve">
+    <value>スタートサーキット</value>
+  </data>
+  <data name="textRango" xml:space="preserve">
+    <value>年齢</value>
+  </data>
+  <data name="textRecomendaciones" xml:space="preserve">
+    <value>推奨事項</value>
+  </data>
+  <data name="textReintentar" xml:space="preserve">
+    <value>リトライ</value>
+  </data>
+  <data name="textTelefono" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="textUbicacion" xml:space="preserve">
+    <value>ロケーション</value>
+  </data>
+  <data name="tiempoRestante" xml:space="preserve">
+    <value>残り時間</value>
+  </data>
+  <data name="traductor" xml:space="preserve">
+    <value>翻訳者</value>
+    <comment>traductor</comment>
+  </data>
+  <data name="volver" xml:space="preserve">
+    <value>戻る</value>
+    <comment>filtros.xaml</comment>
+  </data>
+</root>
