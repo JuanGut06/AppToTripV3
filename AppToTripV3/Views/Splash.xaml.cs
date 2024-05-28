@@ -1,6 +1,6 @@
 namespace AppToTripV3.Views;
 
-public partial class Splash : ContentView
+public partial class Splash : ContentPage
 {
 	public Splash()
 	{

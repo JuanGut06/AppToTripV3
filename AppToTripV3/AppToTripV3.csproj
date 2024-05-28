@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks>net8.0-ios;net8.0-maccatalyst;net8.0-android34.0</TargetFrameworks>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
@@ -38,6 +38,14 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android34.0|AnyCPU'">
+	  <AndroidKeyStore>False</AndroidKeyStore>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android34.0|AnyCPU'">
+	  <AndroidKeyStore>False</AndroidKeyStore>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -57,6 +65,150 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\apptotrip.png" />
+	  <None Remove="Resources\Images\arroba.png" />
+	  <None Remove="Resources\Images\atras.png" />
+	  <None Remove="Resources\Images\avion.png" />
+	  <None Remove="Resources\Images\fondologin.png" />
+	  <None Remove="Resources\Images\fondomenu.png" />
+	  <None Remove="Resources\Images\icoredondo.png" />
+	  <None Remove="Resources\Images\ic_apptotrip_white.png" />
+	  <None Remove="Resources\Images\ic_arroba.png" />
+	  <None Remove="Resources\Images\ic_buscar.png" />
+	  <None Remove="Resources\Images\ic_calendario.png" />
+	  <None Remove="Resources\Images\ic_camaazul.png" />
+	  <None Remove="Resources\Images\ic_contexto.png" />
+	  <None Remove="Resources\Images\ic_correoelec.png" />
+	  <None Remove="Resources\Images\ic_cuadro.png" />
+	  <None Remove="Resources\Images\ic_descarga.png" />
+	  <None Remove="Resources\Images\ic_descargar.png" />
+	  <None Remove="Resources\Images\ic_direccion.png" />
+	  <None Remove="Resources\Images\ic_dislike.png" />
+	  <None Remove="Resources\Images\ic_dislikeazul.png" />
+	  <None Remove="Resources\Images\ic_dislike_azul.png" />
+	  <None Remove="Resources\Images\ic_download.png" />
+	  <None Remove="Resources\Images\ic_duracion.png" />
+	  <None Remove="Resources\Images\ic_edad.png" />
+	  <None Remove="Resources\Images\ic_equipamiento.png" />
+	  <None Remove="Resources\Images\ic_equis.png" />
+	  <None Remove="Resources\Images\ic_equisazul.png" />
+	  <None Remove="Resources\Images\ic_estrellablue.png" />
+	  <None Remove="Resources\Images\ic_estrellagris.png" />
+	  <None Remove="Resources\Images\ic_estrellaroja.png" />
+	  <None Remove="Resources\Images\ic_finaliza_circuito.png" />
+	  <None Remove="Resources\Images\ic_flechaizq.png" />
+	  <None Remove="Resources\Images\ic_globoazul.png" />
+	  <None Remove="Resources\Images\ic_globorojo.png" />
+	  <None Remove="Resources\Images\ic_googlemaps.png" />
+	  <None Remove="Resources\Images\ic_gpsazul.png" />
+	  <None Remove="Resources\Images\ic_hotel.png" />
+	  <None Remove="Resources\Images\ic_hotelazul.png" />
+	  <None Remove="Resources\Images\ic_hotel_pin.png" />
+	  <None Remove="Resources\Images\ic_launcher.png" />
+	  <None Remove="Resources\Images\ic_launcher_round.png" />
+	  <None Remove="Resources\Images\ic_lg_de.png" />
+	  <None Remove="Resources\Images\ic_lg_en.png" />
+	  <None Remove="Resources\Images\ic_lg_es.png" />
+	  <None Remove="Resources\Images\ic_lg_fr.png" />
+	  <None Remove="Resources\Images\ic_lg_it.png" />
+	  <None Remove="Resources\Images\ic_lg_ja.png" />
+	  <None Remove="Resources\Images\ic_lg_pt.png" />
+	  <None Remove="Resources\Images\ic_lg_ru.png" />
+	  <None Remove="Resources\Images\ic_lg_tr.png" />
+	  <None Remove="Resources\Images\ic_like.png" />
+	  <None Remove="Resources\Images\ic_likeazul.png" />
+	  <None Remove="Resources\Images\ic_like_azul.png" />
+	  <None Remove="Resources\Images\ic_location.png" />
+	  <None Remove="Resources\Images\ic_lupaazul.png" />
+	  <None Remove="Resources\Images\ic_massitiosazul.png" />
+	  <None Remove="Resources\Images\ic_mas_circuitos.png" />
+	  <None Remove="Resources\Images\ic_megafono.png" />
+	  <None Remove="Resources\Images\ic_mensaje.png" />
+	  <None Remove="Resources\Images\ic_micro.png" />
+	  <None Remove="Resources\Images\ic_microblanco.png" />
+	  <None Remove="Resources\Images\ic_nav_buscar.png" />
+	  <None Remove="Resources\Images\ic_nombre.png" />
+	  <None Remove="Resources\Images\ic_papelera.png" />
+	  <None Remove="Resources\Images\ic_pause.png" />
+	  <None Remove="Resources\Images\ic_pingris.png" />
+	  <None Remove="Resources\Images\ic_pinrojo.png" />
+	  <None Remove="Resources\Images\ic_play.png" />
+	  <None Remove="Resources\Images\ic_playazul.png" />
+	  <None Remove="Resources\Images\ic_playblanco.png" />
+	  <None Remove="Resources\Images\ic_politica_privacidad.png" />
+	  <None Remove="Resources\Images\ic_puntosazules.png" />
+	  <None Remove="Resources\Images\ic_puntosblancos.png" />
+	  <None Remove="Resources\Images\ic_puntosrojo.png" />
+	  <None Remove="Resources\Images\ic_recomendaciones.png" />
+	  <None Remove="Resources\Images\ic_recuerdos.png" />
+	  <None Remove="Resources\Images\ic_redesfacebook.png" />
+	  <None Remove="Resources\Images\ic_redesgoogle.png" />
+	  <None Remove="Resources\Images\ic_reloj.png" />
+	  <None Remove="Resources\Images\ic_salir.png" />
+	  <None Remove="Resources\Images\ic_siguiente_sitio.png" />
+	  <None Remove="Resources\Images\ic_stop.png" />
+	  <None Remove="Resources\Images\ic_tecladoblanco.png" />
+	  <None Remove="Resources\Images\ic_tecladogris.png" />
+	  <None Remove="Resources\Images\ic_telefono.png" />
+	  <None Remove="Resources\Images\ic_traductor.png" />
+	  <None Remove="Resources\Images\ic_trianguloblanco.png" />
+	  <None Remove="Resources\Images\ic_ubicacion.png" />
+	  <None Remove="Resources\Images\ic_ubicacion_azul.png" />
+	  <None Remove="Resources\Images\ic_ubicacion_rojo.png" />
+	  <None Remove="Resources\Images\ic_volumenazul.png" />
+	  <None Remove="Resources\Images\ic_volver.png" />
+	  <None Remove="Resources\Images\ic_waze.png" />
+	  <None Remove="Resources\Images\ic_whatsapp.png" />
+	  <None Remove="Resources\Images\img_filtros1.png" />
+	  <None Remove="Resources\Images\img_filtros2.png" />
+	  <None Remove="Resources\Images\lista.png" />
+	  <None Remove="Resources\Images\lupa.png" />
+	  <None Remove="Resources\Images\menu.png" />
+	  <None Remove="Resources\Images\nube.png" />
+	  <None Remove="Resources\Images\pin_azul_1.png" />
+	  <None Remove="Resources\Images\pin_azul_10.png" />
+	  <None Remove="Resources\Images\pin_azul_11.png" />
+	  <None Remove="Resources\Images\pin_azul_12.png" />
+	  <None Remove="Resources\Images\pin_azul_13.png" />
+	  <None Remove="Resources\Images\pin_azul_14.png" />
+	  <None Remove="Resources\Images\pin_azul_15.png" />
+	  <None Remove="Resources\Images\pin_azul_16.png" />
+	  <None Remove="Resources\Images\pin_azul_17.png" />
+	  <None Remove="Resources\Images\pin_azul_18.png" />
+	  <None Remove="Resources\Images\pin_azul_19.png" />
+	  <None Remove="Resources\Images\pin_azul_2.png" />
+	  <None Remove="Resources\Images\pin_azul_20.png" />
+	  <None Remove="Resources\Images\pin_azul_3.png" />
+	  <None Remove="Resources\Images\pin_azul_4.png" />
+	  <None Remove="Resources\Images\pin_azul_5.png" />
+	  <None Remove="Resources\Images\pin_azul_6.png" />
+	  <None Remove="Resources\Images\pin_azul_7.png" />
+	  <None Remove="Resources\Images\pin_azul_8.png" />
+	  <None Remove="Resources\Images\pin_azul_9.png" />
+	  <None Remove="Resources\Images\pin_rojo_1.png" />
+	  <None Remove="Resources\Images\pin_rojo_10.png" />
+	  <None Remove="Resources\Images\pin_rojo_11.png" />
+	  <None Remove="Resources\Images\pin_rojo_12.png" />
+	  <None Remove="Resources\Images\pin_rojo_13.png" />
+	  <None Remove="Resources\Images\pin_rojo_14.png" />
+	  <None Remove="Resources\Images\pin_rojo_15.png" />
+	  <None Remove="Resources\Images\pin_rojo_16.png" />
+	  <None Remove="Resources\Images\pin_rojo_17.png" />
+	  <None Remove="Resources\Images\pin_rojo_18.png" />
+	  <None Remove="Resources\Images\pin_rojo_19.png" />
+	  <None Remove="Resources\Images\pin_rojo_2.png" />
+	  <None Remove="Resources\Images\pin_rojo_20.png" />
+	  <None Remove="Resources\Images\pin_rojo_3.png" />
+	  <None Remove="Resources\Images\pin_rojo_4.png" />
+	  <None Remove="Resources\Images\pin_rojo_5.png" />
+	  <None Remove="Resources\Images\pin_rojo_6.png" />
+	  <None Remove="Resources\Images\pin_rojo_7.png" />
+	  <None Remove="Resources\Images\pin_rojo_8.png" />
+	  <None Remove="Resources\Images\pin_rojo_9.png" />
+	  <None Remove="Resources\Images\sl_espanol.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -67,6 +219,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\Login.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Registro.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Splash.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

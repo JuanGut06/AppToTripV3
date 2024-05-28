@@ -6,6 +6,17 @@
 
     <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
 
+    <Color x:Key="RedApp">#DB0019</Color>
+    <Color x:Key="RedAppDarks">#BD0117</Color>
+    <Color x:Key="GrayApp">#707583</Color>
+    <Color x:Key="BlueApp">#4884be</Color>
+    <Color x:Key="BlackApp">#333333</Color>
+    <Color x:Key="GrayLightApp">#E9E9E9</Color>
+    <Color x:Key="SemiBlackApp">#70333333</Color>
+    <Color x:Key="SemiWhiteApp">#CCFFFFFF</Color>
+    <Color x:Key="GrayPlaceHolder">#D4D4D4</Color>
+    <Color x:Key="BlueDarks">#386592</Color>
+
     <Color x:Key="Primary">#512BD4</Color>
     <Color x:Key="PrimaryDark">#ac99ea</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>

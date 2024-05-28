@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aceptar" xml:space="preserve">
+    <value>Accepter</value>
+    <comment>General</comment>
+  </data>
+  <data name="aceptaTerminosYCondiciones" xml:space="preserve">
+    <value>J'accepte les termes et conditions des politiques de traitement des données.</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="apellido" xml:space="preserve">
+    <value>Le nom</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="banderaIdioma" xml:space="preserve">
+    <value>ic_lg_fr</value>
+  </data>
+  <data name="buscar" xml:space="preserve">
+    <value>Chercher</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="BuscarCuenta" xml:space="preserve">
+    <value>Récupérer mon compte</value>
+  </data>
+  <data name="cercaDeMi" xml:space="preserve">
+    <value>Près de moi</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="circuitos" xml:space="preserve">
+    <value>circuits</value>
+  </data>
+  <data name="codigoNOValido" xml:space="preserve">
+    <value>Le code saisi n'est pas valide.</value>
+  </data>
+  <data name="compruebaTuConexionAInternet" xml:space="preserve">
+    <value>Vérifiez votre connection internet</value>
+    <comment>General</comment>
+  </data>
+  <data name="continuar" xml:space="preserve">
+    <value>Continuer</value>
+  </data>
+  <data name="correo" xml:space="preserve">
+    <value>Courrier électronique</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="crearCircuito" xml:space="preserve">
+    <value>Créer un circuit</value>
+  </data>
+  <data name="crearCuenta" xml:space="preserve">
+    <value>créer un compte</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="cuentaNoEncontradaConEsteDispositivo" xml:space="preserve">
+    <value>Compte introuvable avec cet appareil</value>
+    <comment>LoginVm</comment>
+  </data>
+  <data name="elFormatoDeCorreoEsIncorrecto" xml:space="preserve">
+    <value>Le format de l'e-mail est incorrect</value>
+    <comment>General</comment>
+  </data>
+  <data name="elFormatoDelNombreEsIncorrecto" xml:space="preserve">
+    <value>Le format du nom est incorrect</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="elFormatoDelTelefonoEsIncorrecto" xml:space="preserve">
+    <value>Le format du téléphone est incorrect</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="elUsuarioYaEstaRegistrado" xml:space="preserve">
+    <value>L'utilisateur est déjà enregistré</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="estamosCargandoInformacion" xml:space="preserve">
+    <value>Nous téléchargeons des informations en ce moment, revenez plus tard.</value>
+    <comment>General</comment>
+  </data>
+  <data name="fechaNacimiento" xml:space="preserve">
+    <value>Date de naissance</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="ingresar" xml:space="preserve">
+    <value>Payer en</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="ingresarCodigo" xml:space="preserve">
+    <value>Entrez le code</value>
+  </data>
+  <data name="ingresarConFacebook" xml:space="preserve">
+    <value>Se connecter avec Facebook</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="ingresarConGoogle" xml:space="preserve">
+    <value>Se connecter avec Google</value>
+    <comment>Login.xaml</comment>
+  </data>
+  <data name="introduceCorreo" xml:space="preserve">
+    <value>Entrez votre adresse e-mail pour rechercher votre compte.</value>
+  </data>
+  <data name="labelCodigo4Digitos" xml:space="preserve">
+    <value>Entrez le code à 4 chiffres qui vous a été envoyé à </value>
+  </data>
+  <data name="labelCrearCircuito" xml:space="preserve">
+    <value>Sélectionnez le nombre de jours et nous serons ravis de créer une expérience inoubliable pour vous à </value>
+  </data>
+  <data name="macro" xml:space="preserve">
+    <value>Macro</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="noDejesCamposVacios" xml:space="preserve">
+    <value>Ne laissez pas de champs vides</value>
+    <comment>General</comment>
+  </data>
+  <data name="nombre" xml:space="preserve">
+    <value>nom</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="noSeEncontroUbicacion" xml:space="preserve">
+    <value>Votre position n'a pas été trouvée</value>
+    <comment>General</comment>
+  </data>
+  <data name="numeroCelular" xml:space="preserve">
+    <value>Numéro de téléphone portable</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="oppsAlgoPaso" xml:space="preserve">
+    <value>Opps! Quelque chose est arrivé</value>
+    <comment>General</comment>
+  </data>
+  <data name="politicaDePrivacidad" xml:space="preserve">
+    <value>Politique de confidentialité</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="recuperarTuCuenta" xml:space="preserve">
+    <value>Récupère ton compte</value>
+  </data>
+  <data name="reenviarCodigo" xml:space="preserve">
+    <value>Renvoyer le code</value>
+  </data>
+  <data name="registrarme" xml:space="preserve">
+    <value>S'inscrire</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="registraTusDatos" xml:space="preserve">
+    <value>Enregistrez vos coordonnées</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="reintentar" xml:space="preserve">
+    <value>Recommencez</value>
+    <comment>Registro.xaml</comment>
+  </data>
+  <data name="seleccioneUnaCategoria" xml:space="preserve">
+    <value>choisissez une catégorie</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="seleccioneUnDestino" xml:space="preserve">
+    <value>Choisissez une destination</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="seleccioneUnMacro" xml:space="preserve">
+    <value>Sélectionnez une macro</value>
+    <comment>filtros.xaml</comment>
+  </data>
+  <data name="sitios" xml:space="preserve">
+    <value>des sites</value>
+  </data>
+  <data name="terminosYcondiciones" xml:space="preserve">
+    <value>Termes et conditions</value>
+    <comment>RegistroVM</comment>
+  </data>
+  <data name="textAutor" xml:space="preserve">
+    <value>Auteur</value>
+  </data>
+  <data name="textComprarCircuito" xml:space="preserve">
+    <value>Acheter Circuit</value>
+  </data>
+  <data name="textDescripcion" xml:space="preserve">
+    <value>La description</value>
+  </data>
+  <data name="textDireccion" xml:space="preserve">
+    <value>adresse</value>
+  </data>
+  <data name="textDuracion" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="textEquipamiento" xml:space="preserve">
+    <value>équipement</value>
+  </data>
+  <data name="textHorario" xml:space="preserve">
+    <value>Programme</value>
+  </data>
+  <data name="textIniciarCircuito" xml:space="preserve">
+    <value>Circuit de départ</value>
+  </data>
+  <data name="textRango" xml:space="preserve">
+    <value>Âge</value>
+  </data>
+  <data name="textRecomendaciones" xml:space="preserve">
+    <value>recommandations</value>
+  </data>
+  <data name="textReintentar" xml:space="preserve">
+    <value>Recommencez</value>
+  </data>
+  <data name="textTelefono" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="textUbicacion" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="tiempoRestante" xml:space="preserve">
+    <value>Temps restant</value>
+  </data>
+  <data name="traductor" xml:space="preserve">
+    <value>Traducteur</value>
+    <comment>traductor</comment>
+  </data>
+  <data name="volver" xml:space="preserve">
+    <value>Revenir</value>
+    <comment>filtros.xaml</comment>
+  </data>
+</root>
