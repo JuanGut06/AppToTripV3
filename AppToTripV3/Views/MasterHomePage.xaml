@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppToTripV3.Views.MasterHomePage"
+             Title="MasterHomePage">
+    <!--<FlyoutPage.Flyout>
+        <views:MenuPage />
+    </FlyoutPage.Flyout>
+
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <views:Filtros/>
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>-->
+</FlyoutPage>

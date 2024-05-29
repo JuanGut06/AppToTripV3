@@ -12,6 +12,10 @@
           "Microsoft.Extensions.Logging.Debug": "8.0.0",
           "Microsoft.Maui.Controls": "8.0.21",
           "Microsoft.Maui.Controls.Compatibility": "8.0.21",
+          "Newtonsoft.Json": "13.0.3",
+          "Plugin.FacebookClient": "4.2.1",
+          "Plugin.GoogleClient": "2.1.16-beta",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
         "runtime": {
@@ -461,6 +465,38 @@
             "fileVersion": "1.5.0.0"
           }
         }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Plugin.FacebookClient/4.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.FacebookClient.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "Plugin.GoogleClient/2.1.16-beta": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.GoogleClient.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.DeviceInfo.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -628,6 +664,34 @@
       "sha512": "sha512-7AYbQt/XPSbsOwLWeyP+TquJGFwfDsxRRutWZJEKhoyj9pkGDI4VgtX+Uy030PzkuuKsCm1Fz8c8H7saRyAoPg==",
       "path": "microsoft.windowsappsdk/1.5.240311000",
       "hashPath": "microsoft.windowsappsdk.1.5.240311000.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Plugin.FacebookClient/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qDK4Zn+47+rUCCIJyku7GJMxlsyiHi81VMEa51+JkeKIxSTjNyYxALAJc4+7If2oOC52m6fgwl9k0qPfWQhTkQ==",
+      "path": "plugin.facebookclient/4.2.1",
+      "hashPath": "plugin.facebookclient.4.2.1.nupkg.sha512"
+    },
+    "Plugin.GoogleClient/2.1.16-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FsRawv93zVohP/KV/NIRVKTpW4GcGW5oPZoPrxrgf60JbSK/haXSiihtlgX6f0tC74ew7PpsZJU8pONYTGeTpA==",
+      "path": "plugin.googleclient/2.1.16-beta",
+      "hashPath": "plugin.googleclient.2.1.16-beta.nupkg.sha512"
+    },
+    "Xam.Plugin.DeviceInfo/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBoWE60pwlUDK9f+X3CeFBVTpU+OuMel8Hfp7bxYnJKiGGQ2I3S+8ZF1lJSxvlQf0o8C/IjGnddUeDqwBmWZfg==",
+      "path": "xam.plugin.deviceinfo/4.1.1",
+      "hashPath": "xam.plugin.deviceinfo.4.1.1.nupkg.sha512"
     }
   }
 }
