@@ -61,170 +61,35 @@
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_whatsapp.scale-100.png">
-      <PackagePath>ic_whatsapp.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_telefono.scale-100.png">
+      <PackagePath>ic_telefono.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_waze.scale-100.png">
-      <PackagePath>ic_waze.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_tecladogris.scale-100.png">
+      <PackagePath>ic_tecladogris.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_nav_buscar.scale-100.png">
-      <PackagePath>ic_nav_buscar.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lupaazul.scale-100.png">
+      <PackagePath>ic_lupaazul.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_finaliza_circuito.scale-100.png">
-      <PackagePath>ic_finaliza_circuito.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_contexto.scale-100.png">
-      <PackagePath>ic_contexto.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_volver.scale-100.png">
-      <PackagePath>ic_volver.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_volumenazul.scale-100.png">
-      <PackagePath>ic_volumenazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_microblanco.scale-100.png">
-      <PackagePath>ic_microblanco.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_globoazul.scale-100.png">
-      <PackagePath>ic_globoazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_apptotrip_white.scale-100.png">
-      <PackagePath>ic_apptotrip_white.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_10.scale-100.png">
-      <PackagePath>pin_azul_10.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_1.scale-100.png">
-      <PackagePath>pin_azul_1.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_nombre.scale-100.png">
-      <PackagePath>ic_nombre.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_flechaizq.scale-100.png">
-      <PackagePath>ic_flechaizq.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_estrellaroja.scale-100.png">
+      <PackagePath>ic_estrellaroja.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\apptotrip.scale-100.png">
       <PackagePath>apptotrip.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa.scale-100.png">
-      <PackagePath>lupa.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_waze.scale-100.png">
+      <PackagePath>ic_waze.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista.scale-100.png">
-      <PackagePath>lista.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_volver.scale-100.png">
+      <PackagePath>ic_volver.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_papelera.scale-100.png">
-      <PackagePath>ic_papelera.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_micro.scale-100.png">
+      <PackagePath>ic_micro.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_globorojo.scale-100.png">
-      <PackagePath>ic_globorojo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_flechaizq.scale-100.png">
+      <PackagePath>ic_flechaizq.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_buscar.scale-100.png">
-      <PackagePath>ic_buscar.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nube.scale-100.png">
-      <PackagePath>nube.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
-      <PackagePath>menu.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_pinrojo.scale-100.png">
-      <PackagePath>ic_pinrojo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_googlemaps.scale-100.png">
-      <PackagePath>ic_googlemaps.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_calendario.scale-100.png">
-      <PackagePath>ic_calendario.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_12.scale-100.png">
-      <PackagePath>pin_azul_12.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_11.scale-100.png">
-      <PackagePath>pin_azul_11.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_pause.scale-100.png">
-      <PackagePath>ic_pause.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_gpsazul.scale-100.png">
-      <PackagePath>ic_gpsazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_arroba.scale-100.png">
-      <PackagePath>ic_arroba.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_filtros2.scale-100.png">
-      <PackagePath>img_filtros2.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_filtros1.scale-100.png">
-      <PackagePath>img_filtros1.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_pingris.scale-100.png">
-      <PackagePath>ic_pingris.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_hotel.scale-100.png">
-      <PackagePath>ic_hotel.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_correoelec.scale-100.png">
-      <PackagePath>ic_correoelec.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_18.scale-100.png">
-      <PackagePath>pin_azul_18.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_17.scale-100.png">
-      <PackagePath>pin_azul_17.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_play.scale-100.png">
-      <PackagePath>ic_play.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_hotelazul.scale-100.png">
-      <PackagePath>ic_hotelazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_descargar.scale-100.png">
-      <PackagePath>ic_descargar.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_14.scale-100.png">
-      <PackagePath>pin_azul_14.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_13.scale-100.png">
-      <PackagePath>pin_azul_13.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_playazul.scale-100.png">
-      <PackagePath>ic_playazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_hotel_pin.scale-100.png">
-      <PackagePath>ic_hotel_pin.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_descarga.scale-100.png">
-      <PackagePath>ic_descarga.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_18.scale-100.png">
-      <PackagePath>pin_rojo_18.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_17.scale-100.png">
-      <PackagePath>pin_rojo_17.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_redesfacebook.scale-100.png">
-      <PackagePath>ic_redesfacebook.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_launcher.scale-100.png">
-      <PackagePath>ic_launcher.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_cuadro.scale-100.png">
-      <PackagePath>ic_cuadro.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_16.scale-100.png">
-      <PackagePath>pin_azul_16.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_15.scale-100.png">
-      <PackagePath>pin_azul_15.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_playblanco.scale-100.png">
-      <PackagePath>ic_playblanco.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_launcher_round.scale-100.png">
-      <PackagePath>ic_launcher_round.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_direccion.scale-100.png">
-      <PackagePath>ic_direccion.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_camaazul.scale-100.png">
+      <PackagePath>ic_camaazul.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_2.scale-100.png">
       <PackagePath>pin_azul_2.scale-100.png</PackagePath>
@@ -232,14 +97,239 @@
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_19.scale-100.png">
       <PackagePath>pin_azul_19.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_politica_privacidad.scale-100.png">
-      <PackagePath>ic_politica_privacidad.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_puntosazules.scale-100.png">
+      <PackagePath>ic_puntosazules.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_globoazul.scale-100.png">
+      <PackagePath>ic_globoazul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_arroba.scale-100.png">
+      <PackagePath>ic_arroba.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_ubicacion.scale-100.png">
+      <PackagePath>ic_ubicacion.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_trianguloblanco.scale-100.png">
+      <PackagePath>ic_trianguloblanco.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_megafono.scale-100.png">
+      <PackagePath>ic_megafono.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_globorojo.scale-100.png">
+      <PackagePath>ic_globorojo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_descarga.scale-100.png">
+      <PackagePath>ic_descarga.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_11.scale-100.png">
+      <PackagePath>pin_rojo_11.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_10.scale-100.png">
+      <PackagePath>pin_rojo_10.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_recomendaciones.scale-100.png">
+      <PackagePath>ic_recomendaciones.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_googlemaps.scale-100.png">
+      <PackagePath>ic_googlemaps.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_calendario.scale-100.png">
+      <PackagePath>ic_calendario.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_11.scale-100.png">
+      <PackagePath>pin_azul_11.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_10.scale-100.png">
+      <PackagePath>pin_azul_10.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_playazul.scale-100.png">
+      <PackagePath>ic_playazul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_gpsazul.scale-100.png">
+      <PackagePath>ic_gpsazul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\arroba.scale-100.png">
+      <PackagePath>arroba.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_13.scale-100.png">
+      <PackagePath>pin_azul_13.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_12.scale-100.png">
+      <PackagePath>pin_azul_12.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_nombre.scale-100.png">
+      <PackagePath>ic_nombre.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_hotel.scale-100.png">
+      <PackagePath>ic_hotel.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\avion.scale-100.png">
+      <PackagePath>avion.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_filtros1.scale-100.png">
+      <PackagePath>img_filtros1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_whatsapp.scale-100.png">
+      <PackagePath>ic_whatsapp.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_pingris.scale-100.png">
+      <PackagePath>ic_pingris.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_hotelazul.scale-100.png">
+      <PackagePath>ic_hotelazul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icoredondo.scale-100.png">
+      <PackagePath>icoredondo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_15.scale-100.png">
+      <PackagePath>pin_rojo_15.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_14.scale-100.png">
+      <PackagePath>pin_rojo_14.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_salir.scale-100.png">
+      <PackagePath>ic_salir.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_hotel_pin.scale-100.png">
+      <PackagePath>ic_hotel_pin.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_contexto.scale-100.png">
+      <PackagePath>ic_contexto.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista.scale-100.png">
+      <PackagePath>lista.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img_filtros2.scale-100.png">
+      <PackagePath>img_filtros2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_pause.scale-100.png">
+      <PackagePath>ic_pause.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_launcher.scale-100.png">
+      <PackagePath>ic_launcher.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\atras.scale-100.png">
+      <PackagePath>atras.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png">
+      <PackagePath>menu.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lupa.scale-100.png">
+      <PackagePath>lupa.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_pinrojo.scale-100.png">
+      <PackagePath>ic_pinrojo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_launcher_round.scale-100.png">
+      <PackagePath>ic_launcher_round.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_descargar.scale-100.png">
+      <PackagePath>ic_descargar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_17.scale-100.png">
+      <PackagePath>pin_azul_17.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_16.scale-100.png">
+      <PackagePath>pin_azul_16.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_playblanco.scale-100.png">
+      <PackagePath>ic_playblanco.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_de.scale-100.png">
       <PackagePath>ic_lg_de.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_camaazul.scale-100.png">
-      <PackagePath>ic_camaazul.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondomenu.scale-100.png">
+      <PackagePath>fondomenu.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_1.scale-100.png">
+      <PackagePath>pin_azul_1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nube.scale-100.png">
+      <PackagePath>nube.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_play.scale-100.png">
+      <PackagePath>ic_play.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_en.scale-100.png">
+      <PackagePath>ic_lg_en.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_dislike.scale-100.png">
+      <PackagePath>ic_dislike.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_15.scale-100.png">
+      <PackagePath>pin_azul_15.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_14.scale-100.png">
+      <PackagePath>pin_azul_14.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_politica_privacidad.scale-100.png">
+      <PackagePath>ic_politica_privacidad.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_es.scale-100.png">
+      <PackagePath>ic_lg_es.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_dislike_azul.scale-100.png">
+      <PackagePath>ic_dislike_azul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_18.scale-100.png">
+      <PackagePath>pin_rojo_18.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_17.scale-100.png">
+      <PackagePath>pin_rojo_17.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_siguiente_sitio.scale-100.png">
+      <PackagePath>ic_siguiente_sitio.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_fr.scale-100.png">
+      <PackagePath>ic_lg_fr.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondologin.scale-100.png">
+      <PackagePath>fondologin.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_4.scale-100.png">
+      <PackagePath>pin_azul_4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_3.scale-100.png">
+      <PackagePath>pin_azul_3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_recuerdos.scale-100.png">
+      <PackagePath>ic_recuerdos.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_it.scale-100.png">
+      <PackagePath>ic_lg_it.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_direccion.scale-100.png">
+      <PackagePath>ic_direccion.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_13.scale-100.png">
+      <PackagePath>pin_rojo_13.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_12.scale-100.png">
+      <PackagePath>pin_rojo_12.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_puntosblancos.scale-100.png">
+      <PackagePath>ic_puntosblancos.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_ja.scale-100.png">
+      <PackagePath>ic_lg_ja.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_edad.scale-100.png">
+      <PackagePath>ic_edad.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_6.scale-100.png">
+      <PackagePath>pin_azul_6.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_5.scale-100.png">
+      <PackagePath>pin_azul_5.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_redesfacebook.scale-100.png">
+      <PackagePath>ic_redesfacebook.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_pt.scale-100.png">
+      <PackagePath>ic_lg_pt.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_dislikeazul.scale-100.png">
+      <PackagePath>ic_dislikeazul.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_5.scale-100.png">
       <PackagePath>pin_rojo_5.scale-100.png</PackagePath>
@@ -247,74 +337,89 @@
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_4.scale-100.png">
       <PackagePath>pin_rojo_4.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_tecladoblanco.scale-100.png">
-      <PackagePath>ic_tecladoblanco.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_en.scale-100.png">
-      <PackagePath>ic_lg_en.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_dislikeazul.scale-100.png">
-      <PackagePath>ic_dislikeazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_3.scale-100.png">
-      <PackagePath>pin_azul_3.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_20.scale-100.png">
-      <PackagePath>pin_azul_20.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_puntosazules.scale-100.png">
-      <PackagePath>ic_puntosazules.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_es.scale-100.png">
-      <PackagePath>ic_lg_es.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_dislike.scale-100.png">
-      <PackagePath>ic_dislike.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_5.scale-100.png">
-      <PackagePath>pin_azul_5.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_4.scale-100.png">
-      <PackagePath>pin_azul_4.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_recomendaciones.scale-100.png">
-      <PackagePath>ic_recomendaciones.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_fr.scale-100.png">
-      <PackagePath>ic_lg_fr.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_dislike_azul.scale-100.png">
-      <PackagePath>ic_dislike_azul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_9.scale-100.png">
-      <PackagePath>pin_azul_9.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_8.scale-100.png">
-      <PackagePath>pin_azul_8.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_puntosrojo.scale-100.png">
       <PackagePath>ic_puntosrojo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_it.scale-100.png">
-      <PackagePath>ic_lg_it.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_ru.scale-100.png">
+      <PackagePath>ic_lg_ru.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_download.scale-100.png">
+      <PackagePath>ic_download.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_9.scale-100.png">
+      <PackagePath>pin_rojo_9.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_8.scale-100.png">
+      <PackagePath>pin_rojo_8.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_ubicacion_azul.scale-100.png">
+      <PackagePath>ic_ubicacion_azul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_tr.scale-100.png">
+      <PackagePath>ic_lg_tr.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_duracion.scale-100.png">
       <PackagePath>ic_duracion.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_10.scale-100.png">
-      <PackagePath>pin_rojo_10.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_8.scale-100.png">
+      <PackagePath>pin_azul_8.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_7.scale-100.png">
+      <PackagePath>pin_azul_7.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_redesgoogle.scale-100.png">
+      <PackagePath>ic_redesgoogle.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_like.scale-100.png">
+      <PackagePath>ic_like.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_equipamiento.scale-100.png">
+      <PackagePath>ic_equipamiento.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_1.scale-100.png">
       <PackagePath>pin_rojo_1.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_recuerdos.scale-100.png">
-      <PackagePath>ic_recuerdos.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_9.scale-100.png">
+      <PackagePath>pin_azul_9.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_pt.scale-100.png">
-      <PackagePath>ic_lg_pt.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_reloj.scale-100.png">
+      <PackagePath>ic_reloj.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\arroba.scale-100.png">
-      <PackagePath>arroba.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_likeazul.scale-100.png">
+      <PackagePath>ic_likeazul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_equis.scale-100.png">
+      <PackagePath>ic_equis.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_2.scale-100.png">
+      <PackagePath>pin_rojo_2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_19.scale-100.png">
+      <PackagePath>pin_rojo_19.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_tecladoblanco.scale-100.png">
+      <PackagePath>ic_tecladoblanco.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_like_azul.scale-100.png">
+      <PackagePath>ic_like_azul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_equisazul.scale-100.png">
+      <PackagePath>ic_equisazul.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_3.scale-100.png">
+      <PackagePath>pin_rojo_3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_20.scale-100.png">
+      <PackagePath>pin_rojo_20.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_stop.scale-100.png">
+      <PackagePath>ic_stop.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_location.scale-100.png">
+      <PackagePath>ic_location.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_estrellablue.scale-100.png">
+      <PackagePath>ic_estrellablue.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -457,74 +562,14 @@
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sl_espanol.scale-100.png">
       <PackagePath>sl_espanol.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_traductor.scale-100.png">
-      <PackagePath>ic_traductor.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_ubicacion_rojo.scale-100.png">
+      <PackagePath>ic_ubicacion_rojo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_ja.scale-100.png">
-      <PackagePath>ic_lg_ja.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_massitiosazul.scale-100.png">
+      <PackagePath>ic_massitiosazul.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_download.scale-100.png">
-      <PackagePath>ic_download.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_7.scale-100.png">
-      <PackagePath>pin_azul_7.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_6.scale-100.png">
-      <PackagePath>pin_azul_6.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_puntosblancos.scale-100.png">
-      <PackagePath>ic_puntosblancos.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_ru.scale-100.png">
-      <PackagePath>ic_lg_ru.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_edad.scale-100.png">
-      <PackagePath>ic_edad.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_12.scale-100.png">
-      <PackagePath>pin_rojo_12.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_11.scale-100.png">
-      <PackagePath>pin_rojo_11.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_redesgoogle.scale-100.png">
-      <PackagePath>ic_redesgoogle.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lg_tr.scale-100.png">
-      <PackagePath>ic_lg_tr.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\avion.scale-100.png">
-      <PackagePath>avion.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_3.scale-100.png">
-      <PackagePath>pin_rojo_3.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_20.scale-100.png">
-      <PackagePath>pin_rojo_20.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_salir.scale-100.png">
-      <PackagePath>ic_salir.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_like.scale-100.png">
-      <PackagePath>ic_like.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icoredondo.scale-100.png">
-      <PackagePath>icoredondo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_14.scale-100.png">
-      <PackagePath>pin_rojo_14.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_13.scale-100.png">
-      <PackagePath>pin_rojo_13.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_reloj.scale-100.png">
-      <PackagePath>ic_reloj.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_likeazul.scale-100.png">
-      <PackagePath>ic_likeazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondomenu.scale-100.png">
-      <PackagePath>fondomenu.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_estrellagris.scale-100.png">
+      <PackagePath>ic_estrellagris.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_7.scale-100.png">
       <PackagePath>pin_rojo_7.scale-100.png</PackagePath>
@@ -532,95 +577,50 @@
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_6.scale-100.png">
       <PackagePath>pin_rojo_6.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_tecladogris.scale-100.png">
-      <PackagePath>ic_tecladogris.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_like_azul.scale-100.png">
-      <PackagePath>ic_like_azul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_equipamiento.scale-100.png">
-      <PackagePath>ic_equipamiento.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_16.scale-100.png">
-      <PackagePath>pin_rojo_16.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_15.scale-100.png">
-      <PackagePath>pin_rojo_15.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_siguiente_sitio.scale-100.png">
-      <PackagePath>ic_siguiente_sitio.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_massitiosazul.scale-100.png">
-      <PackagePath>ic_massitiosazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondologin.scale-100.png">
-      <PackagePath>fondologin.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_9.scale-100.png">
-      <PackagePath>pin_rojo_9.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_8.scale-100.png">
-      <PackagePath>pin_rojo_8.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_telefono.scale-100.png">
-      <PackagePath>ic_telefono.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_location.scale-100.png">
-      <PackagePath>ic_location.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_equis.scale-100.png">
-      <PackagePath>ic_equis.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_2.scale-100.png">
-      <PackagePath>pin_rojo_2.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_19.scale-100.png">
-      <PackagePath>pin_rojo_19.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_stop.scale-100.png">
-      <PackagePath>ic_stop.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_lupaazul.scale-100.png">
-      <PackagePath>ic_lupaazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_equisazul.scale-100.png">
-      <PackagePath>ic_equisazul.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_ubicacion.scale-100.png">
-      <PackagePath>ic_ubicacion.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_traductor.scale-100.png">
+      <PackagePath>ic_traductor.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_mas_circuitos.scale-100.png">
       <PackagePath>ic_mas_circuitos.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\atras.scale-100.png">
-      <PackagePath>atras.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_buscar.scale-100.png">
+      <PackagePath>ic_buscar.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_trianguloblanco.scale-100.png">
-      <PackagePath>ic_trianguloblanco.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_megafono.scale-100.png">
-      <PackagePath>ic_megafono.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_estrellablue.scale-100.png">
-      <PackagePath>ic_estrellablue.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_ubicacion_azul.scale-100.png">
-      <PackagePath>ic_ubicacion_azul.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_18.scale-100.png">
+      <PackagePath>pin_azul_18.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_mensaje.scale-100.png">
       <PackagePath>ic_mensaje.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_estrellaroja.scale-100.png">
-      <PackagePath>ic_estrellaroja.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_apptotrip_white.scale-100.png">
+      <PackagePath>ic_apptotrip_white.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_ubicacion_rojo.scale-100.png">
-      <PackagePath>ic_ubicacion_rojo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_volumenazul.scale-100.png">
+      <PackagePath>ic_volumenazul.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_micro.scale-100.png">
-      <PackagePath>ic_micro.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_microblanco.scale-100.png">
+      <PackagePath>ic_microblanco.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_estrellagris.scale-100.png">
-      <PackagePath>ic_estrellagris.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_cuadro.scale-100.png">
+      <PackagePath>ic_cuadro.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_azul_20.scale-100.png">
+      <PackagePath>pin_azul_20.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_nav_buscar.scale-100.png">
+      <PackagePath>ic_nav_buscar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_correoelec.scale-100.png">
+      <PackagePath>ic_correoelec.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pin_rojo_16.scale-100.png">
+      <PackagePath>pin_rojo_16.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_papelera.scale-100.png">
+      <PackagePath>ic_papelera.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_finaliza_circuito.scale-100.png">
+      <PackagePath>ic_finaliza_circuito.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\Documents\GitHub\AppToTripV3\AppToTripV3\AppToTripV3\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
@@ -765,6 +765,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\.nuget\packages\plugin.facebookclient\4.2.1\lib\netstandard2.0\Plugin.FacebookClient.dll">
+      <PackagePath>Plugin.FacebookClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\.nuget\packages\plugin.googleclient\2.1.16-beta\lib\netstandard2.0\Plugin.GoogleClient.dll">
+      <PackagePath>Plugin.GoogleClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USUARIO\.nuget\packages\xam.plugin.deviceinfo\4.1.1\lib\netstandard2.0\Plugin.DeviceInfo.dll">
+      <PackagePath>Plugin.DeviceInfo.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\USUARIO\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

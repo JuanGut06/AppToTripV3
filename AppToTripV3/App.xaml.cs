@@ -8,7 +8,7 @@ namespace AppToTripV3
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new IngresarCorreo();
         }
     }
 }

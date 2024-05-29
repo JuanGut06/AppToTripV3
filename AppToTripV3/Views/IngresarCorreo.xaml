@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppToTripV3.Views.IngresarCorreo"
+             xmlns:Controlls="clr-namespace:AppToTripV3.Controles">
+    <Grid>
+        <ScrollView BackgroundColor="White">
+            <Grid BackgroundColor="White" >
+                <Image Source="nube.png" VerticalOptions="End" BackgroundColor="Transparent"/>
+
+                <StackLayout Padding="20" Spacing="20" VerticalOptions="StartAndExpand">
+                    <ImageButton Source="ic_volver.png" Clicked="ImageButton_Clicked" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"  BackgroundColor="Transparent"/>
+                    <Label Text="Recupera tu cuenta" FontSize="30" TextColor="{StaticResource Key=GrayApp}"/>
+                    <Label Text="Introduce tu correo electrónico para buscar tu cuenta." FontSize="20" TextColor="{StaticResource Key=GrayApp}"/>
+                    <Frame CornerRadius="15" Margin="0,0,0,0" Padding="20,10,20,10"  BackgroundColor="White" HasShadow="true" IsClippedToBounds="true">
+                        <Grid Padding="5">
+                            <Controlls:CustomEntry Margin="0,0,0,0" Padding="0,13,28,13" Placeholder="Correo electrónico" PlaceholderColor="{StaticResource Key=GrayApp}" TextColor="{StaticResource Key=BlackApp}" Keyboard="Email" Text="{Binding EntCorreo}" FontSize="13" HorizontalTextAlignment="Center"/>
+                        </Grid>
+                    </Frame>
+                    <Button Text="Continuar" Margin="0,30,0,0" Padding="0,10,0,10" WidthRequest="200" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="12" Command="{Binding BtnRecoverCorreo}" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

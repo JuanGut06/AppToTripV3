@@ -46,11 +46,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Resources.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/IngresarCorreo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.IngresarCorreo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\IngresarCorreo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\IngresarCorreo.xaml
+
 [C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/MasterHomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.MasterHomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MasterHomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MasterHomePage.xaml
+
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/RecorridoMapa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.RecorridoMapa.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RecorridoMapa.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RecorridoMapa.xaml
 
 [C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/Registro.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

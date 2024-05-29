@@ -16,7 +16,6 @@
     <Color x:Key="SemiWhiteApp">#CCFFFFFF</Color>
     <Color x:Key="GrayPlaceHolder">#D4D4D4</Color>
     <Color x:Key="BlueDarks">#386592</Color>
-
     <Color x:Key="Primary">#512BD4</Color>
     <Color x:Key="PrimaryDark">#ac99ea</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
