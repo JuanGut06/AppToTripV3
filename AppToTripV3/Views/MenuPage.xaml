@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui;assembly=SkiaSharp.Views.Maui.Core"
+             x:Class="AppToTripV3.Views.MenuPage"
+             Title="&#x2630;"
+             BackgroundColor="#ffffff">
+    
+    <Grid Padding="0,20,0,0">
+        <Image Source="fondomenu.png" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Image>
+        <StackLayout VerticalOptions="FillAndExpand" >
+            <ListView x:Name="ListViewMenu" x:FieldModifier="public" BackgroundColor="Transparent" HasUnevenRows="True" SeparatorVisibility="None" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never">
+                <ListView.Header>
+                    <StackLayout Margin="0,70,0,0" Padding="10,5,0,5" BackgroundColor="#8Cfafafa">
+                        <Label Text="{Binding NombreUsuario}" FontFamily="MyOdeng" FontSize="40" TextColor="#B01126" Margin="0,0,0,20"/>
+                        <Label Text="{Binding CorreoUsuario}" TextColor="#4A72B1"/>
+                    </StackLayout>
+                </ListView.Header>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 2</x:String>
+                        <x:String>Item 3</x:String>
+                        <x:String>Item 4</x:String>
+                        <x:String>Item 5</x:String>
+                        <x:String>Item 6</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5,10" BackgroundColor="#8Cfafafa">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding IconSource}" WidthRequest="24" HeightRequest="24"/>
+                                <Label Grid.Column="1" Text="{Binding Title}" TextColor="#4A72B1" FontSize="14" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <!--<skia:SKCanvasView x:Name="imagenMuestra" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />-->
+        </StackLayout>
+    </Grid>
+</ContentPage>

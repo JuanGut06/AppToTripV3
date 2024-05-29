@@ -42,6 +42,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Resources.Styl
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/Filtros.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.Filtros.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Filtros.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Filtros.xaml
+
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/IngresarCodigo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.IngresarCodigo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\IngresarCodigo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\IngresarCodigo.xaml
+
 [C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/IngresarCorreo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.IngresarCorreo.xaml
@@ -60,6 +72,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.MasterHo
 build_metadata.AdditionalFiles.TargetPath = Views\MasterHomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MasterHomePage.xaml
 
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MenuPage.xaml
+
 [C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/RecorridoMapa.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.RecorridoMapa.xaml
@@ -77,3 +95,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.Splash.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Splash.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Splash.xaml
+
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/TargetasCircuitos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.TargetasCircuitos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TargetasCircuitos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TargetasCircuitos.xaml
+
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/TargetasMacros.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.TargetasMacros.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TargetasMacros.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TargetasMacros.xaml

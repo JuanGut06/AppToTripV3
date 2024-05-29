@@ -1,6 +1,4 @@
-﻿
-using Plugin.DeviceInfo;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace AppToTripV3.Services
 {
@@ -618,17 +616,18 @@ namespace AppToTripV3.Services
         //Metodo obtiene le IMEI del usuario y se pasa como token de usuario
         public string ObtenerToken()
         {
-            //string correoPersona = Preferences.Get("correo_persona", "");
+            string correoPersona = Preferences.Get("correo_persona", "");
 
-            //if (!string.IsNullOrEmpty(correoPersona) && correoPersona.ToLower() == "juan.16gut@gmail.com")
-            //{
-            //    return "dc9fd13c5fe07359";
-            //}
-            //else
-            //{
-            //    return CrossDeviceInfo.Current.Id;
-            //}
-            return CrossDeviceInfo.Current.Id;
+            if (!string.IsNullOrEmpty(correoPersona) && correoPersona.ToLower() == "juan.16gut@gmail.com")
+            {
+                return "dc9fd13c5fe07359";
+            }
+            else
+            {
+                //return CrossDeviceInfo.Current.Id;
+                return "dc9fd13c5fe07359";
+            }
+            //return CrossDeviceInfo.Current.Id;
 
         }
         public string GetJsonFilePath(string nombreDocumento)

@@ -1,8 +1,7 @@
 ﻿using AppToTripV3.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Plugin.FacebookClient;
-using Plugin.GoogleClient;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +11,7 @@ using System.Windows.Input;
 using System.Text.RegularExpressions;
 using AppToTripV3.Views;
 using AppToTripV3.Interface;
-using Plugin.GoogleClient.Shared;
+
 
 namespace AppToTripV3.ViewModels
 {
@@ -33,9 +32,7 @@ namespace AppToTripV3.ViewModels
         /*Inicio Redes Sociales*/
         public ICommand OnLoginWithGoogleCommand { get; set; }
         public ICommand OnLoginWithFacebookCommand { get; set; }
-
-        readonly IFacebookClient _facebookService = CrossFacebookClient.Current;
-        readonly IGoogleClientManager _googleService = CrossGoogleClient.Current;
+    
         /*Fin Redes Sociales*/
 
         public string EntCorreo
@@ -158,175 +155,7 @@ namespace AppToTripV3.ViewModels
 
         /*Fin Correo*/
 
-        /*Modulo GMail*/
-        async Task LoginGoogleAsync()
-        {
-            try
-            {
-                IsBusy = true;
-                _googleService.Logout();
-
-                EventHandler<GoogleClientResultEventArgs<GoogleUser>> userLoginDelegate = null;              
-                userLoginDelegate = async (object sender, GoogleClientResultEventArgs<GoogleUser> e) =>
-                {
-                    switch (e.Status)
-                    {
-                        case GoogleActionStatus.Completed:
-
-                            var googleUserString = JsonConvert.SerializeObject(e.Data);
-
-                            var socialLoginData = new NetworkAuthData
-                            {
-                                Id = e.Data.Id,
-                                Picture = e.Data.Picture.AbsoluteUri,
-                                Name = e.Data.Name,
-                                Email = e.Data.Email
-                            };
-                            try
-                            {
-                                string tokenId = Logica_WS_Vgl.ObtenerToken();
-                                string urli = Logica_WS_Vgl.Movile_Consulta_Personas_Metodo(socialLoginData.Email, tokenId);
-                                string JsonProcedimiento = await Logica_WS_Vgl.Conection(urli);
-                                JObject jsonObject = JObject.Parse(JsonProcedimiento);
-                                Validar_Google_MtoAsync(jsonObject, socialLoginData);
-                            }
-                            catch (Exception exs)
-                            {
-                                _googleService.Logout();
-                                //await pageServicio.DisplayAlert(appRecursos.oppsAlgoPaso, exs.Message, appRecursos.aceptar);
-                            }
-
-                            break;
-                        case GoogleActionStatus.Canceled:
-                            IsBusy = false;
-                            await pageServicio.DisplayAlert("Google Auth", "Canceled", "Aceptar");
-                            break;
-                        case GoogleActionStatus.Error:
-                            IsBusy = false;
-                            await pageServicio.DisplayAlert("Google Auth", "Error" + GoogleActionStatus.Error, "Aceptar");
-                            break;
-                        case GoogleActionStatus.Unauthorized:
-                            IsBusy = false;
-                            await pageServicio.DisplayAlert("Google Auth", "Unauthorized", "Aceptar");
-                            break;
-                    }
-
-                    _googleService.OnLogin -= userLoginDelegate;
-                };
-
-                _googleService.OnLogin += userLoginDelegate;
-
-                await _googleService.LoginAsync();
-            }
-            catch (Exception ex)
-            {
-                IsBusy = false;
-                //await pageServicio.DisplayAlert("Google Auth", ex.Message, appRecursos.aceptar);
-                Console.WriteLine("el error es " + ex);
-                await pageServicio.DisplayAlert("AppToTrip", "Revisa tu conexión a internet", "Ok");
-            }
-        }
-
-        private async void Validar_Google_MtoAsync(JObject jsonObject, NetworkAuthData socialLoginData)
-        {
-            try
-            {
-                string attrib1Value = jsonObject["Table"][0]["resultado"].Value<string>();
-                try
-                {
-                    string tokenId = Logica_WS_Vgl.ObtenerToken();
-                    string urli = Logica_WS_Vgl.Movile_Insert_Persona_Metodo(socialLoginData.Name, "%20", socialLoginData.Email, "%20", tokenId, "%20");
-                    string JsonProcedimiento = await Logica_WS_Vgl.Conection(urli);
-                    JArray jsonArray = JArray.Parse(JsonProcedimiento);
-                    Validar_Registro_Mto(jsonArray, socialLoginData);
-                }
-                catch (Exception exs)
-                {
-                    IsBusy = false;
-                    _googleService.Logout();
-                    // await pageServicio.DisplayAlert(appRecursos.oppsAlgoPaso, exs.Message, appRecursos.aceptar);
-                }
-            }
-            catch
-            {
-                try
-                {
-                    Preferences.Set("correo_persona", socialLoginData.Email);
-                    Preferences.Set("nombre_persona", jsonObject["Table"][0]["nombres_persona"].Value<string>());
-                    Preferences.Set("estado_persona", jsonObject["Table"][0]["estado"].Value<string>());
-                    if (jsonObject["Table"][0]["estado"].Value<string>().Equals("2"))
-                    {
-                        Preferences.Set("id_circuito", jsonObject["Table1"][0]["fk_circuito"].Value<string>());
-                        Application.Current.MainPage = new NavigationPage(new MasterHomePage());
-                        RootPage.Detail = new NavigationPage(new RecorridoMapa());
-                    }
-                    else
-                    {
-                        Application.Current.MainPage = new NavigationPage(new MasterHomePage());
-                    }
-                }
-                catch (Exception ex)
-                {
-                    IsBusy = false;
-                    _googleService.Logout();
-                    // await pageServicio.DisplayAlert(appRecursos.oppsAlgoPaso, ex.Message, appRecursos.aceptar);
-                }
-            }
-        }
-
-        private void Validar_Registro_Mto(JArray jsArray, NetworkAuthData socialLoginData)
-        {
-            string resultado = "";
-
-            try
-            {
-                foreach (JObject item in jsArray)
-                    resultado = item.GetValue("resultado").ToString();
-
-                if (resultado.Equals("Usuario registrado exitosamente"))
-                {
-
-                    Preferences.Set("correo_persona", socialLoginData.Email);
-                    Preferences.Set("nombre_persona", socialLoginData.Name);
-                    Preferences.Set("estado_persona", "1");
-                    Application.Current.MainPage = new NavigationPage(new MasterHomePage());
-                }
-                else if (resultado.Equals("El usuario ya esta registrado"))
-                {
-                    IsBusy = false;
-                    switch (Device.RuntimePlatform)
-                    {
-                        case Device.iOS:
-                            pageServicio.DisplayAlert("AppToTrip", "Verifica con otra cuenta, esta no coincide con este telefono.", "Aceptar");
-                            break;
-                        case Device.Android:
-                            pageServicio.DisplayAlert("AppToTrip", "Verifica con otra cuenta, esta no coincide con este telefono.", "Aceptar");
-                            //DependencyService.Get<IMensajes>().ToastShortAlert(resultado);
-                            break;
-                    }
-                }
-                else
-                {
-                    IsBusy = false;
-                    switch (Device.RuntimePlatform)
-                    {
-                        case Device.iOS:
-                            pageServicio.DisplayAlert("AppToTrip", resultado, "Aceptar"); ;
-                            break;
-                        case Device.Android:
-                            DependencyService.Get<IMensajes>().ToastShortAlert(resultado);
-                            break;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                _googleService.Logout();
-                // pageServicio.DisplayAlert("Opps! Algo paso con tus datos", ex.Message, appRecursos.aceptar);
-            }
-
-        }
-        /*Fin Gmail*/
+               
 
 
 

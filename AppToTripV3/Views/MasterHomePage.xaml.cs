@@ -1,9 +1,9 @@
-namespace AppToTripV3.Views;
-
 public partial class MasterHomePage : FlyoutPage
 {
-	public MasterHomePage()
+  
+    public MasterHomePage()
 	{
-		InitializeComponent();
-	}
+		//InitializeComponent();
+        BindingContext = this;
+    }
 }

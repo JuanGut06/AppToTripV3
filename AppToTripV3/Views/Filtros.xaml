@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"              
+             xmlns:controles="clr-namespace:AppToTripV3.Controles" 
+             x:Class="AppToTripV3.Views.Filtros">
+
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0">
+            <ScrollView BackgroundColor="White">
+                <StackLayout Padding="20,20,20,20" BackgroundColor="White">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <ImageButton IsVisible="{Binding BtnAtrasVisible}" Source="atras.png" HorizontalOptions="Start" Padding="8" WidthRequest="35" HeightRequest="35" BackgroundColor="White" Command="{Binding VolverBtn}" BorderWidth="1" 
+                        CornerRadius="20" BorderColor="{x:StaticResource Key=GrayPlaceHolder}"/>
+
+                        <ImageButton IsVisible="{Binding BtnCerrarVisible}" Source="ic_equisazul.png" Grid.Column="2" HorizontalOptions="End" Padding="8" WidthRequest="35" HeightRequest="35" BackgroundColor="White" Command="{Binding EquisBtn}" 
+                        BorderWidth="1" CornerRadius="20" BorderColor="{x:StaticResource Key=GrayPlaceHolder}"/>
+                    </Grid>
+
+                    <Label Margin="0,5,0,15" HorizontalOptions="Center" Text="AppToTrip" FontFamily="MyOdeng" FontSize="65" TextColor="{StaticResource Key=BlueApp}" BackgroundColor="White"/>
+                    <Grid IsVisible="{Binding ConsultasLayout}" BackgroundColor="White" >
+                        <Frame CornerRadius="15" HeightRequest="180" IsClippedToBounds="True" Padding="0" >
+                            <Image Source="img_filtros1.png" Aspect="AspectFill" HeightRequest="180" />
+                        </Frame>
+                        <StackLayout Padding="10" IsClippedToBounds="True" Spacing="0" >
+                            <Grid Margin="0,30,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="60"/>
+                                </Grid.ColumnDefinitions>
+                                <Frame Grid.Column="0" CornerRadius="15" HasShadow="False" Margin="0,0,0,0" Padding="10,0,10,0" BackgroundColor="{StaticResource Key=SemiWhiteApp}" HeightRequest="50">
+                                    <Label x:Name="Placeholder" VerticalOptions="Center" Margin="5" Text="{Binding Placeholder}" TextColor="{StaticResource Key=BlueApp}" FontSize="13"/>
+                                </Frame>
+                                <Frame Grid.Column="0" CornerRadius="15" HasShadow="False" Margin="0,0,0,0" Padding="10,0,10,0" BackgroundColor="Transparent" HeightRequest="50">
+                                    <controles:CustomAutoBox  TextColor="{StaticResource Key=BlueApp}" Margin="5" x:Name="AutoSuggestBoxName" 
+                                                      FontSize="13"/>
+                                </Frame>
+                                <Frame CornerRadius="15"  HasShadow="False" Grid.Column="1" Margin="0,0,0,0" Padding="0,0,0,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" HeightRequest="50" >
+                                    <StackLayout Padding="0,2,0,5" Margin="0" Spacing="0">
+                                        <StackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding MacrosBtn}" />
+                                        </StackLayout.GestureRecognizers>
+                                        <Image Source="ic_direccion.png" WidthRequest="15" Margin="0" BackgroundColor="Transparent" VerticalOptions="CenterAndExpand"/>
+                                        <Label  Margin="0" Padding="0" TextColor="{StaticResource Key=BlueApp}" Text="Macro" IsVisible="true" BackgroundColor="Transparent" HorizontalTextAlignment="Center" FontSize="11" VerticalOptions="CenterAndExpand" />
+                                    </StackLayout>
+                                </Frame>
+                            </Grid>
+                            <Frame HasShadow="False" Margin="0,20,0,0" Padding="10,0,10,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" CornerRadius="15" HeightRequest="50">
+                                <controles:CustomPicker Title="Seleccione una categoria" TitleColor="{StaticResource Key=BlueApp}" Margin="5" FontSize="13" TextColor="{StaticResource Key=BlueApp}" ItemsSource="{Binding ListaCategoria, Mode=TwoWay}"  ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding SelectCategoria}" />
+                            </Frame>
+                            <Button Text="Buscar" Margin="0,20,0,20" Padding="0,10,0,10" WidthRequest="150" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding BuscarBtn}" />
+                        </StackLayout>
+                    </Grid>
+                    <Grid Margin="0,20,0,0" IsVisible="{Binding ConsultasLayout}">
+                        <Frame HasShadow="False" CornerRadius="15" IsClippedToBounds="True" Padding="0" >
+                            <Image Source="img_filtros2.png" Aspect="AspectFill" Margin="-5"/>
+                        </Frame>
+                        <StackLayout Padding="5,20" HorizontalOptions="FillAndExpand" Spacing="0">
+                            <!--<Label Padding="0" Margin="40,20,0,0" FontFamily="MyOdeng" FontSize="50" Text="{x:Static Recursos:appRecursos.cerca|DeMi}" TextColor="{StaticResource Key=BlueApp}" HorizontalOptions="StartAndExpand" />-->
+                            <Label Padding="0" Margin="20,20,0,10" Text="{Binding UbicadoLabel}" TextColor="{StaticResource Key=BlueApp}" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand" FontSize="16" FontAttributes="Bold"/>
+                        </StackLayout>
+
+                        <StackLayout Padding="0,0,20,0" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Spacing="10">
+                            <Button IsVisible="{Binding BtnCercaVisible}" Text="Cerca de mí" Margin="0" Padding="0" WidthRequest="100" CornerRadius="15" HorizontalOptions="EndAndExpand" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding CercamiLayautBtn}" />
+                            <!--<Button IsVisible="{Binding BtnCrearCircVisible}" Text="{x:Static Recursos:appRecursos.crearCircuito}" Margin="0" Padding="0" WidthRequest="100" CornerRadius="15" HorizontalOptions="EndAndExpand" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding AddCircuitBtn}" />-->
+                        </StackLayout>
+                    </Grid>
+                    <Grid IsVisible="{Binding MacrosLayout}" >
+                        <Frame HasShadow="False" CornerRadius="15" HeightRequest="160" IsClippedToBounds="True" Padding="0">
+                            <Image Source="img_filtros1.png" Aspect="AspectFill" HeightRequest="180" />
+                        </Frame>
+                        <StackLayout Padding="10" HeightRequest="180" IsClippedToBounds="True" Spacing="0">
+                            <Frame Margin="0,20,0,0" Padding="10,0,10,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" CornerRadius="10" HeightRequest="50">
+                                <controles:CustomPicker Title="Seleccione un macro" TitleColor="{StaticResource Key=BlueApp}" Margin="5" FontSize="13" TextColor="{StaticResource Key=BlueApp}" ItemsSource="{Binding ListaMacros, Mode=TwoWay}" ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding SelectMacros}"/>
+                            </Frame>
+                            <Frame HasShadow="False" CornerRadius="15" Grid.Column="1" Margin="0,20,0,0" Padding="20,0,20,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" HorizontalOptions="Center">
+                                <StackLayout Padding="0,2,0,2" Margin="0" Spacing="0" HorizontalOptions="Center">
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding VolverBtn}" />
+                                    </StackLayout.GestureRecognizers>
+                                    <Image Source="ic_direccion.png" WidthRequest="15" Margin="0" BackgroundColor="Transparent" VerticalOptions="Center"/>
+                                    <Label  Margin="0" Padding="0" TextColor="{StaticResource Key=BlueApp}" Text="Volver" IsVisible="true" BackgroundColor="Transparent" HorizontalTextAlignment="Center" FontSize="12" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </Grid>
+
+                    <!-- ================== CREAR CIRCUITOS ========================== 
+                    <Grid IsVisible="{Binding CreateCircuit}">
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{x:Static Recursos:appRecursos.labelCrearCircuito}" FontSize="19" TextColor="{StaticResource Key=GrayApp}" />
+                                    <Span  Text="{Binding UbicadoLabel}" FontSize="19" TextColor="{StaticResource Key=GrayApp}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,0,0,0" Padding="0,70,0,0">
+                            <Frame HasShadow="False" CornerRadius="15" HeightRequest="160" IsClippedToBounds="True" Padding="0">
+                                <Image Source="img_filtros1.png" Aspect="AspectFill" HeightRequest="180" />
+                            </Frame>
+                            <StackLayout Padding="10" HeightRequest="180" IsClippedToBounds="True" Spacing="0">
+                                <Frame HasShadow="False" Margin="0,20,0,0" Padding="10,0,10,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" CornerRadius="10" HeightRequest="50">
+                                    <controles:CustomPicker Grid.Column="1" Title="{x:Static Recursos:appRecursos.NumDias}" TitleColor="{StaticResource Key=BlueApp}" Margin="10,13,0,13" FontSize="12" TextColor="{StaticResource Key=BlueApp}" ItemsSource="{Binding ListaNumDias, Mode=TwoWay}" ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding SelectNumDias}" SelectedIndex="{Binding IndexDia}" />
+                                </Frame>
+                                <StackLayout Padding="0,2,0,2" Margin="0" Spacing="0" HorizontalOptions="Center" >
+                                    <Button Text="{x:Static Recursos:appRecursos.crearCircuito}" Margin="0,20,0,20" BackgroundColor="{StaticResource Key=BlueApp}" Padding="0" WidthRequest="100" CornerRadius="15" HorizontalOptions="EndAndExpand" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding CrearCircuito}" />
+
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </Grid>
+                    <StackLayout IsVisible="{Binding ProcessCircuit}" Margin="10,10,0,0">
+                        <Frame IsVisible="{Binding ImagenCircSitiosVisible}" HasShadow="False" CornerRadius="15" HeightRequest="220" IsClippedToBounds="True" Padding="0">
+                            <Image Source="{Binding ImagenCircuitoSitios}" Aspect="AspectFill" HeightRequest="160" />
+                        </Frame>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <ActivityIndicator IsVisible="{Binding CircuitLoadVisible}" Grid.Column="0" Margin="0,0,0,0" HorizontalOptions="Start" Color="{StaticResource Key=BlueApp}" IsRunning="true" />
+                            <CheckBox IsVisible="{Binding CircuitVisible}" Grid.Column="0" Margin="0,0,0,0" HorizontalOptions="Start" IsChecked="true" Color="{StaticResource Key=BlueApp}" IsEnabled="false"/>
+                            <Label Grid.Column="1" Margin="10,10,0,0" Text="{Binding CircuitoLabel}" FontSize="19" TextColor="{StaticResource Key=GrayApp}" />
+                        </Grid>
+                        <Label IsVisible="{Binding NumSitiosVisible}" HorizontalOptions="CenterAndExpand">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{Binding ImagenConContador}" FontSize="17" TextColor="{StaticResource Key=BlueApp}" />
+                                    <Span  Text=" de " FontSize="17" TextColor="{StaticResource Key=BlueApp}" />
+                                    <Span  Text="{Binding TotalSitiosContador}" FontSize="17" TextColor="{StaticResource Key=BlueApp}" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Label Padding="0,20,0,0" IsVisible="{Binding SugerenciaLabel}" Text="Te sugerimos dejar el proceso de creación abierto para lograr un circuito más preciso. ¡Así obtendrás mejores resultados!" FontSize="15" TextColor="{StaticResource Key=RedApp}" VerticalOptions="EndAndExpand"/>
+                    </StackLayout>-->
+                </StackLayout>
+            </ScrollView>
+            <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
+                <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" Padding="5" HasShadow="False" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50">
+                    <ActivityIndicator IsRunning="true" Color="{StaticResource Key=BlueApp}" HeightRequest="40" WidthRequest="40" IsVisible="{Binding IsBusy}" />
+                </Frame>
+            </StackLayout>-->
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

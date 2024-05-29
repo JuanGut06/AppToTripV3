@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugFramework>net8.0-android34.0</ActiveDebugFramework>
+    <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
     <ActiveDebugProfile>Xiaomi M2101K7BL (Android 12.0 - API 31)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
@@ -11,6 +11,12 @@
     <PlatformTarget>arm64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Views\Filtros.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\IngresarCodigo.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\IngresarCorreo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -20,6 +26,9 @@
     <MauiXaml Update="Views\MasterHomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\MenuPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\RecorridoMapa.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -27,6 +36,12 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Splash.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\TargetasCircuitos.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\TargetasMacros.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
