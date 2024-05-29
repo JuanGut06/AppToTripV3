@@ -15,8 +15,6 @@ Microsoft.Maui.Controls.Xaml.dll
 Microsoft.Maui.dll
 Microsoft.Maui.Essentials.dll
 Microsoft.Maui.Graphics.dll
-Plugin.CurrentActivity.dll
-Plugin.DeviceInfo.dll
 Plugin.FacebookClient.dll
 Plugin.GoogleClient.dll
 Xamarin.Android.Arch.Core.Common.dll

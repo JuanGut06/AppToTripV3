@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
+             x:Class="AppToTripV3.Views.IngresarCodigo">
+    <Grid>
+        <ScrollView BackgroundColor="White">
+            <Grid BackgroundColor="White" >
+                <Image Source="nube.png" VerticalOptions="End" BackgroundColor="Transparent"/>
+                <StackLayout Padding="20" Spacing="20" VerticalOptions="StartAndExpand">
+                    <ImageButton Source="ic_volver.png" Clicked="ImageButton_Clicked" WidthRequest="40" HeightRequest="40" HorizontalOptions="Start"  BackgroundColor="Transparent"/>
+                    <Label Text="Introduce el código" FontSize="30" TextColor="{StaticResource Key=GrayApp}"/>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Ingresa el código de 4 dígitos que se te envió a " FontSize="20" TextColor="{StaticResource Key=GrayApp}" FontAttributes="Bold" />
+                                <Span Text="{Binding CorreoText}" FontSize="20" TextColor="{StaticResource Key=GrayApp}" FontAttributes="Bold" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Grid>
+                        <!--<material:MaterialCodeEntry Length="4" Keyboard="Numeric" FontSize="20" Background="white" Text="{Binding Txtcodigo}"/>-->
+                    </Grid>
+
+
+                    <Label x:Name="timerLabel" Margin="0,0,0,0" Padding="0,0,0,0" FontSize="16" HorizontalOptions="Center" VerticalOptions="Center" TextColor="{StaticResource Key=GrayApp}" IsVisible="true" />
+                    <Label x:Name="TxtreenviaCode" Text="Reenviar código" Padding="0,0,0,0" HorizontalOptions="CenterAndExpand" TextDecorations="Underline" TextColor="{StaticResource Key=GrayApp}" FontAttributes="Bold" FontSize="16" IsVisible="false" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LnkReCodigo}" />
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <Button Text="Continuar" Margin="0,10,0,0" Padding="0,10,0,10" WidthRequest="200" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="12" Command="{Binding BtnRecoverCodigo}"/>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>

@@ -22,7 +22,9 @@ namespace AppToTripV3.ViewModels
         */
         public MasterHomePage RootPage { get => RootMainPage.RootPage as MasterHomePage; }
 
-        string _idioma = DependencyService.Get<ILenguaje>().Id_Lenguaje(); //"es";
+        //string _idioma = DependencyService.Get<ILenguaje>().Id_Lenguaje(); //"es";
+        string _idioma = "es";
+
         string _cultura = "es-ES";  //DependencyService.Get<ILenguaje>().Id_Cultura();
 
         public string _NombreUsuario;
