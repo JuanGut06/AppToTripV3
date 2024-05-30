@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppToTripV3.Views.TargetasSitios">
+    
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <!--<maps:Map Grid.Row="0" x:Name="MapaSitios" MapType="Street" InfoWindowClicked="Map_InfoWindowClicked" PinClicked="MapaSitios_PinClicked"/>-->
+            <StackLayout Grid.Row="1" BackgroundColor="White">
+                <CarouselView BackgroundColor="White" x:Name="carouselViewName" ItemsSource="{Binding ListaSitios}" HeightRequest="200" Margin="0" VerticalOptions="End"  Position="{Binding CarouselPosition}" >
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid BackgroundColor="White" RowSpacing="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Label Grid.Row="0" Text="{Binding Nombre_Sitio}" FontAttributes="Bold" FontSize="14" TextColor="{StaticResource Key=BlackApp}" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,2,0,2"/>
+                                <Image Grid.Row="1" Source="{Binding Imagen_Sitio}" Aspect="Fill" HeightRequest="200" BackgroundColor="White" >
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Path=BindingContext.CarruselImgMasInfo_Clicked,Source={x:Reference carouselViewName},Mode=TwoWay}" CommandParameter="{Binding Id_Sitio}" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+                                <Label Grid.Row="1" Text="{Binding precio}" FontFamily="MyOdeng" FontSize="50" TextColor="White"  Margin="5,5,20,10"  VerticalOptions="End" HorizontalOptions="End" />
+                                <StackLayout Grid.Row="1" Margin="5,0" VerticalOptions="End" HorizontalOptions="Start">
+                                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" >
+                                        <Label Text="{Binding cantidad_sitio}" TextColor="White" FontSize="15" />
+                                        <Label Text="Sitios" TextColor="White" FontSize="15" />
+                                    </StackLayout>
+                                    <Grid ColumnSpacing="10" Margin="10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="40" />
+                                            <ColumnDefinition Width="40" />
+                                            <ColumnDefinition Width="40" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="39"/>
+                                        </Grid.RowDefinitions>
+                                        <Frame Grid.Column="0" Margin="3" Padding="6" BackgroundColor="White" CornerRadius="20" HasShadow="false" BorderColor="#D4D4D4">
+                                            <Image Source="ic_volumenazul.png" Margin="0" BackgroundColor="Transparent">
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding BindingContext.BtnDescripicionAudio,Source={x:Reference carouselViewName}}" />
+                                                </Image.GestureRecognizers>
+                                            </Image>
+                                        </Frame>
+                                        <Frame Grid.Column="1" Margin="3" Padding="6" BackgroundColor="White" CornerRadius="20" HasShadow="false" BorderColor="#D4D4D4">
+                                            <Image  Source="ic_playazul.png"  Margin="0" BackgroundColor="Transparent">
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding Path=BindingContext.BtnPlayRecorrido,Source={x:Reference carouselViewName},Mode=TwoWay}"/>
+                                                </Image.GestureRecognizers>
+                                            </Image>
+                                        </Frame>
+                                    </Grid>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                <StackLayout x:Name="Contador" IsVisible="{Binding CarouselVisible}"  Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Label x:Name="label1" Text=" Cargando " TextColor="Gray" ></Label>
+                    <Label Text=" de " TextColor="Gray"></Label>
+                    <Label x:Name="label2" Text=" Cargando" TextColor="Gray" ></Label>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout BackgroundColor="Transparent" VerticalOptions="Start" Margin="10,10,0,0" HorizontalOptions="Start">
+                <Grid ColumnSpacing="10"  Margin="0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="43" />
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Row="0" Margin="3" Padding="7" BackgroundColor="White" CornerRadius="20" HasShadow="false" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Image Source="atras.png" Margin="0" BackgroundColor="Transparent">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnVolver}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+            <StackLayout BackgroundColor="Transparent" VerticalOptions="Start" HorizontalOptions="EndAndExpand" Margin="0,10,10,0">
+                <Grid ColumnSpacing="10"  Margin="0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="43" />
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Row="0" Margin="3" Padding="8" BackgroundColor="White" CornerRadius="20" HasShadow="false" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Image Source="lista.png" Margin="0" BackgroundColor="Transparent">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnMenuLateral}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                    <Frame Grid.Row="1" Margin="3" Padding="7" BackgroundColor="White" CornerRadius="20" HasShadow="false" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Image Source="ic_hotelazul.png" Margin="0" BackgroundColor="Transparent">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnBuscarHotel}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                    <Frame Grid.Row="2" Margin="3" Padding="7" BackgroundColor="White" CornerRadius="20" HasShadow="false" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Image  Source="ic_lupaazul.png" Margin="0" BackgroundColor="Transparent">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnBuscarIr}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                    <Frame Grid.Row="3" Margin="3" Padding="7" BackgroundColor="White" CornerRadius="20" HasShadow="false" BorderColor="{StaticResource Key=GrayPlaceHolder}">
+                        <Image  Source="ic_gpsazul.png"  Margin="0" BackgroundColor="Transparent">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnMiUbicacion}" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+            <!--<StackLayout Grid.RowSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
+                <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" Padding="5" HasShadow="False" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50">
+                    <ActivityIndicator IsRunning="true" Color="{StaticResource Key=BlueApp}" HeightRequest="40" WidthRequest="40" IsVisible="{Binding IsBusy}" />
+                </Frame>
+            </StackLayout>-->
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
