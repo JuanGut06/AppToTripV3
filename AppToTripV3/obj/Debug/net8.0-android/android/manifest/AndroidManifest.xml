@@ -24,6 +24,7 @@
   <permission android:name="com.companyname.apptotripv3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.apptotripv3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <application android:name="crc648b26de485f2959c7.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="AppToTripV3" android:supportsRtl="true">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyD_BcdT_heUpoSU7iFbndqI_rxmMbFsHAA" />
     <activity android:name="crc648b26de485f2959c7.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

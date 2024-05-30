@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppToTripV3.Views.InfoCircuitos">
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <ScrollView Grid.Row="0" Padding="0,0,0,80" BackgroundColor="White">
+                <StackLayout Margin="0,0,0,0" Padding="0,0,0,10" Spacing="0" BackgroundColor="White">
+                    <CarouselView x:Name="CarouselImag" ItemsSource="{Binding ImgCarrusel}" HeightRequest="260" Margin="0" IndicatorView="indicatorView" Position="{Binding PositionCarusel}" BackgroundColor="White">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Url}" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" Margin="0" x:Name="ImagenCrousel" />
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                    <IndicatorView x:Name="indicatorView" IndicatorColor="{StaticResource Key=GrayLightApp}" SelectedIndicatorColor="{StaticResource Key=BlackApp}" HorizontalOptions="Center" Margin="0,10,0,5" BackgroundColor="White"/>
+                    <StackLayout Margin="0" Padding="0" Spacing="0" BackgroundColor="White">
+                        <Label Margin="10" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding DescripcionCorta}" BackgroundColor="White" />
+                        <Label Margin="10" FontSize="22" TextColor="{StaticResource Key=GrayApp}" Text="{Binding NombreCircuito}" BackgroundColor="White" TextTransform="Uppercase" FontAttributes="Bold"/>
+                        <Frame Margin="5" Padding="5,10,5,10" CornerRadius="5" IsVisible="{Binding VerUbicacion}" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True" BorderColor="{StaticResource Key=GrayLightApp}">
+                            <Grid BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0" Grid.Column="0" Source="ic_ubicacion.png"  HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="20" HeightRequest="20" BackgroundColor="White"></Image>
+                                <Label Grid.Row="0" Grid.Column="1" FontSize="13" FontAttributes="Bold" TextColor="{StaticResource Key=GrayApp}" Text="{Binding UbicacionLabel}" BackgroundColor="White"/>
+                                <Label Grid.Row="1" Grid.Column="1" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding Ubicacion}" BackgroundColor="White"/>
+                            </Grid>
+                        </Frame>
+                        <Frame Margin="5" Padding="5,10,5,10" CornerRadius="5" IsVisible="{Binding VerEdad}" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True" BorderColor="{StaticResource Key=GrayLightApp}">
+                            <Grid BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0" Grid.Column="0" Source="ic_edad.png"  HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="20" HeightRequest="20" BackgroundColor="White"></Image>
+                                <Label Grid.Row="0" Grid.Column="1" FontAttributes="Bold" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding EdadLabel}" BackgroundColor="White"/>
+                                <Label Grid.Row="1" Grid.Column="1" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding Edad}" BackgroundColor="White"/>
+                            </Grid>
+                        </Frame>
+                        <Frame Margin="5" Padding="5,10,5,10" CornerRadius="5" IsVisible="{Binding VerDuracion}" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True" BorderColor="{StaticResource Key=GrayLightApp}">
+                            <Grid BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0" Grid.Column="0" Source="ic_duracion.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="20" HeightRequest="20" BackgroundColor="White"></Image>
+                                <Label Grid.Row="0" Grid.Column="1" FontAttributes="Bold" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding DuracionLabel}" BackgroundColor="White"/>
+                                <Label Grid.Row="1" Grid.Column="1" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding Duracion}" BackgroundColor="White"/>
+                            </Grid>
+                        </Frame>
+                        <Frame Margin="5" Padding="5,10,5,10" CornerRadius="5" IsVisible="{Binding VerRecomendaciones}" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True" BorderColor="{StaticResource Key=GrayLightApp}">
+                            <Grid BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0" Grid.Column="0" Source="ic_recomendaciones.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="20" HeightRequest="20" BackgroundColor="White"></Image>
+                                <Label Grid.Row="0" Grid.Column="1" FontAttributes="Bold" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding RecomendacionesLabel}" BackgroundColor="White"/>
+                                <Label Grid.Row="1" Grid.Column="1" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding Recomendaciones}" BackgroundColor="White"/>
+                            </Grid>
+                        </Frame>
+                        <Frame Margin="5" Padding="5,10,5,10" CornerRadius="5" IsVisible="{Binding VerEquipamiento}" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True" BorderColor="{StaticResource Key=GrayLightApp}">
+                            <Grid BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0" Grid.Column="0" Source="ic_equipamiento.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="20" HeightRequest="20" BackgroundColor="White"></Image>
+                                <Label Grid.Row="0" Grid.Column="1" FontAttributes="Bold" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding EquipamientoLabel}" BackgroundColor="White"/>
+                                <Label Grid.Row="1" Grid.Column="1" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding Equipamiento}" BackgroundColor="White"/>
+                            </Grid>
+                        </Frame>
+                        <Frame Margin="5" Padding="10,10,10,10" CornerRadius="5" IsVisible="{Binding VerDescripcionLarga}" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True" BorderColor="{StaticResource Key=GrayLightApp}">
+                            <StackLayout BackgroundColor="White">
+                                <Label FontAttributes="Bold" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding DescripcionLabel}" BackgroundColor="White"/>
+                                <Label FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding DescripcionLarga}" BackgroundColor="White"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame Margin="5" Padding="10,10,10,10" CornerRadius="5" IsVisible="{Binding VerAutor}" BackgroundColor="White" HasShadow="False" IsClippedToBounds="True" BorderColor="{StaticResource Key=GrayLightApp}">
+                            <Grid BackgroundColor="White">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20*"/>
+                                    <ColumnDefinition Width="80*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Row="0"  Grid.Column="0" Aspect="AspectFill" BackgroundColor="DarkGray" Source="{Binding AutorImagen}" />
+                                <StackLayout Grid.Row="0" Grid.Column="1" Spacing="0" BackgroundColor="White">
+                                    <Label FontAttributes="Bold" FontSize="13" TextColor="{StaticResource Key=GrayApp}" Text="{Binding AutorLabel}" BackgroundColor="White"/>
+                                    <Label FontSize="13"  TextColor="{StaticResource Key=GrayApp}" Text="{Binding NombreAutor}" BackgroundColor="White"/>
+                                    <FlexLayout Wrap="Wrap" JustifyContent="Start" AlignItems="Start" BindableLayout.ItemsSource="{Binding CalificacionAutor}" HorizontalOptions="FillAndExpand" VerticalOptions="Start" BackgroundColor="White">
+                                        <BindableLayout.ItemTemplate>
+                                            <DataTemplate>
+                                                <Image Grid.Column="1" Source="{Binding Url}" WidthRequest="15" HeightRequest="15" BackgroundColor="White" VerticalOptions="Start" Margin="5,5,0,4"/>
+                                            </DataTemplate>
+                                        </BindableLayout.ItemTemplate>
+                                    </FlexLayout>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Column="0" Spacing="0" Margin="0,10,0,-5" Padding="0,10,0,15" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" BackgroundColor="WhiteSmoke">
+                <Grid ColumnSpacing="0" RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <FlexLayout Grid.Column="0" JustifyContent="Center" AlignItems="Center" BindableLayout.ItemsSource="{Binding CalificacionCircuito}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="Transparent" >
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Image Grid.Column="1" Source="{Binding Url}" WidthRequest="20" HeightRequest="20" BackgroundColor="Transparent" VerticalOptions="CenterAndExpand" Margin="3,0"/>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </FlexLayout>
+
+                    <Frame IsVisible="{Binding VerReproductorAudio}" BackgroundColor="Transparent" CornerRadius="20" Grid.Column="1" Margin="0" Padding="0" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" HasShadow="False" IsClippedToBounds="True">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <ImageButton Grid.Column="0" Source="{Binding SourcePausarAudio}" WidthRequest="45" Margin="0" BackgroundColor="Transparent" Command="{Binding BtnAudioPausar}" />
+                            <ImageButton Grid.Column="1" Source="ic_stop.png" Margin="10,0,0,0" WidthRequest="45" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" Command="{Binding BtnAudioCerrar}"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame Grid.Column="2" Padding="20,15,20,15" CornerRadius="20" BorderColor="Transparent" HorizontalOptions="CenterAndExpand" BackgroundColor="{StaticResource Key=BlueApp}" VerticalOptions="CenterAndExpand" IsVisible="{Binding VerInciarCircuito}" HasShadow="False" IsClippedToBounds="True">
+                        <Label  Text="Iniciar circuito"  TextColor="White" FontSize="13" VerticalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnIniciarCircuito}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </Frame>
+
+                    <Frame Grid.Column="2" Padding="20,10,20,10" CornerRadius="20" HorizontalOptions="CenterAndExpand" BackgroundColor="{StaticResource Key=BlueApp}" VerticalOptions="CenterAndExpand" IsVisible="{Binding VerComprarCircuito}" HasShadow="False" IsClippedToBounds="True">
+                        <Label  Text="{Binding ComprarCircuitoLabel}" TextColor="White" FontSize="13" VerticalOptions="CenterAndExpand">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnComprarCircuito}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+            <StackLayout BackgroundColor="#70333333" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" >
+                <Grid Margin="10" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton Source="atras.png" CornerRadius="18" VerticalOptions="Center" BackgroundColor="White" Padding="3"
+                              HorizontalOptions="Center" Command="{Binding BtnVolver}" WidthRequest="35" HeightRequest="35"></ImageButton>
+
+                    <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" VerticalOptions="Center" Margin="5" HorizontalOptions="Start">
+                        <Label Grid.Column="0" Text="AppToTripp" FontSize="20" FontAttributes="Bold" TextColor="White"  />
+                    </StackLayout>
+
+                    <ImageButton Grid.Row="0" Grid.Column="2" Source="ic_volumenazul.png" CornerRadius="18" VerticalOptions="Center" BackgroundColor="White" Padding="1"
+                              HorizontalOptions="Center" Command="{Binding BtnAudioIniciar}" WidthRequest="35" HeightRequest="35"></ImageButton>
+
+                    <ImageButton Grid.Row="0" Grid.Column="3" Source="{Binding SourceBanderaIdioma}" CornerRadius="18" VerticalOptions="Center" BackgroundColor="White" Padding="3"
+                              HorizontalOptions="Center" Command="{Binding BtnSelectIdioma}" WidthRequest="35" HeightRequest="35"></ImageButton>
+
+                </Grid>
+            </StackLayout>
+            <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
+                <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" Padding="5" HasShadow="False" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50">
+                    <ActivityIndicator IsRunning="true" Color="{StaticResource Key=BlueApp}" HeightRequest="40" WidthRequest="40" IsVisible="{Binding IsBusy}" />
+                </Frame>
+            </StackLayout>-->
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

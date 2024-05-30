@@ -1,0 +1,103 @@
+{
+  "project_info": {
+    "project_number": "903439203578",
+    "firebase_url": "https://circuitos-turisticos.firebaseio.com",
+    "project_id": "circuitos-turisticos",
+    "storage_bucket": "circuitos-turisticos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903439203578:android:f4ea0611a2239e74",
+        "android_client_info": {
+          "package_name": "cdi.jlge.com.circuitosturisticos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903439203578-2g7g8njck7hnr74pt7bt98turgdrqdkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cdi.jlge.com.circuitosturisticos",
+            "certificate_hash": "04361078e874cb371fcd1563ba3a7711b6f10f9a"
+          }
+        },
+        {
+          "client_id": "903439203578-32fu79sdvbb6eqmdvt9quh07cqr6le6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cdi.jlge.com.circuitosturisticos",
+            "certificate_hash": "8f901aea63eec0cd6e9e0ed9907e91e486e82501"
+          }
+        },
+        {
+          "client_id": "903439203578-8g07r1fq1lasjqhufmcm1f1sk7404gvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cdi.jlge.com.circuitosturisticos",
+            "certificate_hash": "061580f527f226239410ee460567b8416412f415"
+          }
+        },
+        {
+          "client_id": "903439203578-idh5tv6bglif8765rsih2b6npcf6547p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cdi.jlge.com.circuitosturisticos",
+            "certificate_hash": "07aef23061797aea72a24e3fec04b03471bb0599"
+          }
+        },
+        {
+          "client_id": "903439203578-logo73psu78v87thvbuvm0vvj9vb1dd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cdi.jlge.com.circuitosturisticos",
+            "certificate_hash": "b35b543cc92fb119116b8c2be390208b115e0a96"
+          }
+        },
+        {
+          "client_id": "903439203578-m18n75l6p9ffqsu82q4ds8l78kd4580e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cdi.jlge.com.circuitosturisticos",
+            "certificate_hash": "1aa7d0e7cca94606dc4ec4f18f388c54a2a01175"
+          }
+        },
+        {
+          "client_id": "903439203578-sv765lg123re1ra7s2st9v3ph7g1uitg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cdi.jlge.com.circuitosturisticos",
+            "certificate_hash": "98bdce9efd804c5c1a05e6645a2bc592549e4520"
+          }
+        },
+        {
+          "client_id": "903439203578-gkbhdumi76v2f1qb5g347p8gdjqb43cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeVCXZClEobApL690nkHpZfgflEaY7BSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903439203578-gkbhdumi76v2f1qb5g347p8gdjqb43cp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "903439203578-c6orh9rta3110o3qgc60p5k1c638g53n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.companyname.AppToTrip"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
