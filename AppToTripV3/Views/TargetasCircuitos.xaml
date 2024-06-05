@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppToTripV3.Views.TargetasCircuitos"
              xmlns:controles="clr-namespace:AppToTripV3.Controles" 
+             xmlns:Recursos="clr-namespace:AppToTripV3.RecursosIdioma"
              xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
              xmlns:sensors="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials">
 
@@ -34,7 +35,7 @@
                                 <StackLayout Grid.Row="1" Margin="5,0" VerticalOptions="End" HorizontalOptions="Start">
                                     <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" >
                                         <Label Text="{Binding cantidad_sitio}" TextColor="White" FontSize="15" />
-                                        <Label Text="Sitios" TextColor="White" FontSize="15" />
+                                        <Label Text="{x:Static Recursos:appRecursos.sitios}" TextColor="White" FontSize="15" />
                                     </StackLayout>
                                     <Grid ColumnSpacing="10" Margin="10">
                                         <Grid.ColumnDefinitions>

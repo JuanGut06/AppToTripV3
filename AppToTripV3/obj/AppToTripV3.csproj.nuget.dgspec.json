@@ -82,6 +82,10 @@
               "target": "Package",
               "version": "[9.0.0-preview.4.10690, )"
             },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.40, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
@@ -148,6 +152,10 @@
             "Microsoft.Maui.Controls.Maps": {
               "target": "Package",
               "version": "[9.0.0-preview.4.10690, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.40, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -216,6 +224,10 @@
               "target": "Package",
               "version": "[9.0.0-preview.4.10690, )"
             },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.40, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
@@ -283,6 +295,10 @@
             "Microsoft.Maui.Controls.Maps": {
               "target": "Package",
               "version": "[9.0.0-preview.4.10690, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.40, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

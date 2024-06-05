@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppToTripV3.Views.Registro"
-             xmlns:Controlls="clr-namespace:AppToTripV3.Controles" 
-             xmlns:Recursos="clr-namespace:AppToTrip.Recursos.RecursosIdioma"                    
+             xmlns:Recursos="clr-namespace:AppToTripV3.RecursosIdioma"
+             xmlns:Controlls="clr-namespace:AppToTripV3.Controles"                                
              BackgroundColor="White">
     <Grid>
         <ScrollView BackgroundColor="White">
@@ -83,10 +83,10 @@
                 </StackLayout>
             </Grid>
         </ScrollView>
-        <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
             <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" Padding="5" HasShadow="False" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50">
                 <ActivityIndicator IsRunning="true" Color="{StaticResource Key=BlueApp}" HeightRequest="40" WidthRequest="40" IsVisible="{Binding IsBusy}" />
             </Frame>
-        </StackLayout>-->
+        </StackLayout>
     </Grid>
 </ContentPage>

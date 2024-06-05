@@ -1,13 +1,16 @@
+using AppToTripV3.ViewModels;
+
+
 namespace AppToTripV3.Views
 {
 
     public partial class IngresarCodigo : ContentPage
     {
         private int secondsRemaining = 60;
-        public IngresarCodigo()
+        public IngresarCodigo(string email, string verificationCode)
         {
             InitializeComponent();
-
+            BindingContext = new IngresarCodigoViewModel(email, verificationCode);
             StartTimer();
         }
         private async void ImageButton_Clicked(object sender, EventArgs e)

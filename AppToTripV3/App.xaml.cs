@@ -8,7 +8,7 @@ namespace AppToTripV3
         {
             InitializeComponent();
 
-            MainPage = new InfoCircuitos("179");
+            MainPage = new Splash();
         }
     }
 }
