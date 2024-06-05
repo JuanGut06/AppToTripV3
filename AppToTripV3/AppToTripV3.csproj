@@ -76,6 +76,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <BundleResource Remove="iOS\**" />
+	  <Compile Remove="iOS\**" />
+	  <EmbeddedResource Remove="iOS\**" />
+	  <ImageAsset Remove="iOS\**" />
+	  <InterfaceDefinition Remove="iOS\**" />
+	  <MauiCss Remove="iOS\**" />
+	  <MauiXaml Remove="iOS\**" />
+	  <None Remove="iOS\**" />
+	  <SceneKitAsset Remove="iOS\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\apptotrip.png" />
 	  <None Remove="Resources\Images\arroba.png" />
 	  <None Remove="Resources\Images\atras.png" />
@@ -224,6 +236,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls.Maps" Version="9.0.0-preview.4.10690" />
+		<PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.40" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="SkiaSharp" Version="3.0.0-preview.3.1" />
 		<PackageReference Include="SkiaSharp.Views" Version="3.0.0-preview.3.1" />
@@ -232,10 +245,28 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="RecursosIdioma\appRecursos.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>appRecursos.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="RecursosIdioma\appRecursos.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>appRecursos.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Views\Filtros.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\InfoCircuitos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\InfoSitios.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\IngresarCodigo.xaml">
@@ -271,6 +302,10 @@
 	  <MauiXaml Update="Views\TargetasSitios.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="iOS\Info.plist" />
 	</ItemGroup>
 
 </Project>

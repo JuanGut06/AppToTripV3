@@ -13,6 +13,7 @@ using AppToTripV3.Views;
 using AppToTripV3.Interface;
 
 
+
 namespace AppToTripV3.ViewModels
 {
     public class LoginViewModel : BaseViewModel
@@ -114,15 +115,14 @@ namespace AppToTripV3.ViewModels
                 if (jsonObject["Table"][0]["estado"].Value<string>().Equals("2"))
                 {
                     Preferences.Set("id_circuito", jsonObject["Table1"][0]["fk_circuito"].Value<string>());
-                    Application.Current.MainPage = new NavigationPage(new MasterHomePage());
-                    RootPage.Detail = new NavigationPage(new RecorridoMapa());
+                    Application.Current.MainPage = new NavigationPage(new RecorridoMapa());
                 }
                 else
                 {
                     Application.Current.MainPage = new NavigationPage(new MasterHomePage());
                 }
             }
-            catch
+            catch (Exception ex)
             {
                 IsBusy = false;
                 pageServicio.DisplayAlert("AppToTrip", "Cuenta no encontrada con este dispositivo", "Aceptar");

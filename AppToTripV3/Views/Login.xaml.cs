@@ -1,12 +1,14 @@
 using AppToTripV3.ViewModels;
 
-namespace AppToTripV3.Views;
 
-public partial class Login : ContentPage
+namespace AppToTripV3.Views
 {
-	public Login()
-	{
-		InitializeComponent();
-        BindingContext = new LoginViewModel();
+    public partial class Login : ContentPage
+    {
+        public Login()
+        {
+            InitializeComponent();
+            BindingContext = new LoginViewModel();           
+        }
     }
 }

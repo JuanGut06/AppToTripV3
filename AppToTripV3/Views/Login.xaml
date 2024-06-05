@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"             
-             xmlns:Recursos="clr-namespace:AppToTrip.Recursos.RecursosIdioma"
+             xmlns:Recursos="clr-namespace:AppToTripV3.RecursosIdioma"
              xmlns:Controlls="clr-namespace:AppToTripV3.Controles" 
-             x:Class="AppToTripV3.Views.Login"
-             BackgroundColor="White">
+             x:Class="AppToTripV3.Views.Login">
     
     <Grid Padding="0" Margin="0">
-        <Image Source="fondoLogin.png" Aspect="AspectFill" Margin="-1"/>
+        <Image Source="fondoLogin.png" Aspect="AspectFill" Margin="-1" />
         <ScrollView>
             <StackLayout Spacing="0" Padding="15,0,15,0">
                 <Image Margin="0,30,0,0" Source="ic_apptotrip_white.png" WidthRequest="250"></Image>
@@ -17,7 +16,7 @@
                         <Controlls:CustomEntry Margin="28,0,0,0" Padding="0,13,28,13" Placeholder="Correo electrónico" PlaceholderColor="{StaticResource Key=GrayApp}" TextColor="{StaticResource Key=BlackApp}" Keyboard="Email" Text="{Binding EntCorreo, Mode=TwoWay}" FontSize="13" HorizontalTextAlignment="Center"/>
                     </Grid>
                 </Frame>
-                <Button Text="Ingresar" Margin="0,30,0,0" Padding="0" WidthRequest="200" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding OnLoginWithCorreoCommand}" />
+                <Button Text="{x:Static Recursos:appRecursos.ingresar}" Margin="0,30,0,0" Padding="0" WidthRequest="200" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding OnLoginWithCorreoCommand}" />
                 <Frame CornerRadius="15" Margin="0,30,0,0" Padding="20,0,20,0"  BackgroundColor="White" HasShadow="False" IsClippedToBounds="true">
                     <Grid>
                         <Image Margin="0,2,0,2"  Source="ic_redesgoogle.png" HorizontalOptions="Start" WidthRequest="25" />
@@ -38,7 +37,7 @@
                     </Label>
                 </Grid>
             </Frame>-->
-                <Label Text="Crear cuenta" HorizontalOptions="CenterAndExpand" TextDecorations="Underline" TextColor="White" Margin="0,30,0,20" FontSize="16">
+                <Label Text="{x:Static Recursos:appRecursos.crearCuenta}" HorizontalOptions="CenterAndExpand" TextDecorations="Underline" TextColor="White" Margin="0,30,0,20" FontSize="16">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding Crear_Cuenta}" />
                     </Label.GestureRecognizers>
@@ -51,8 +50,8 @@
             </Label>-->
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsVisible="{Binding StateConexion}">
-                    <Label Text="Comprueba tu conexión a internet" TextColor="{StaticResource Key=BlackApp}"></Label>
-                    <Label Text="Reintentar" TextColor="{StaticResource Key=RedApp}" TextDecorations="Underline" FontAttributes="Bold">
+                    <Label Text="{x:Static Recursos:appRecursos.compruebaTuConexionAInternet}" TextColor="{StaticResource Key=BlackApp}"></Label>
+                    <Label Text="{x:Static Recursos:appRecursos.reintentar}" TextColor="{StaticResource Key=RedApp}" TextDecorations="Underline" FontAttributes="Bold">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding ReintentarConexion}" />
                         </Label.GestureRecognizers>
@@ -60,10 +59,10 @@
                 </StackLayout>
             </StackLayout>
         </ScrollView>
-        <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
             <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" Padding="5" HasShadow="False" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50">
                 <ActivityIndicator IsRunning="true" Color="{StaticResource Key=BlueApp}" HeightRequest="40" WidthRequest="40" IsVisible="{Binding IsBusy}" />
             </Frame>
-        </StackLayout>-->
+        </StackLayout>
     </Grid>
 </ContentPage>

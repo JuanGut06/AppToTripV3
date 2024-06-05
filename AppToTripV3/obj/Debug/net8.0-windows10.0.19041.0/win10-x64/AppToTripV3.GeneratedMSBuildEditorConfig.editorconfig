@@ -54,6 +54,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.InfoCirc
 build_metadata.AdditionalFiles.TargetPath = Views\InfoCircuitos.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\InfoCircuitos.xaml
 
+[C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/InfoSitios.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.InfoSitios.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\InfoSitios.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\InfoSitios.xaml
+
 [C:/Users/USUARIO/Documents/GitHub/AppToTripV3/AppToTripV3/AppToTripV3/Views/IngresarCodigo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppToTripV3.Views.IngresarCodigo.xaml

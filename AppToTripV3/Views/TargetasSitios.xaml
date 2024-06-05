@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Recursos="clr-namespace:AppToTripV3.RecursosIdioma"
              x:Class="AppToTripV3.Views.TargetasSitios">
     
     <ContentPage.Content>
@@ -29,7 +30,7 @@
                                 <StackLayout Grid.Row="1" Margin="5,0" VerticalOptions="End" HorizontalOptions="Start">
                                     <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" >
                                         <Label Text="{Binding cantidad_sitio}" TextColor="White" FontSize="15" />
-                                        <Label Text="Sitios" TextColor="White" FontSize="15" />
+                                        <Label Text="{x:Static Recursos:appRecursos.sitios}" TextColor="White" FontSize="15" />
                                     </StackLayout>
                                     <Grid ColumnSpacing="10" Margin="10">
                                         <Grid.ColumnDefinitions>

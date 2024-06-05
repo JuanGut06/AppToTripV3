@@ -7,7 +7,7 @@
     <ContentPage.Content>
         <StackLayout Margin="0,30,0,0" BackgroundColor="White">
             <Image HorizontalOptions="CenterAndExpand" Source="apptotrip" HeightRequest="200" Margin="0,30,0,10"></Image>
-            <!--<ActivityIndicator IsRunning="true" Color="#B01126" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" IsVisible="{Binding StateProgress}" />-->
+            <ActivityIndicator IsRunning="true" Color="#B01126" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" IsVisible="{Binding StateProgress}" />
             <Label Text="Versión:3.0.0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="16"/>
             <Button Text="Descargas" BackgroundColor="white" TextColor="#4A72B1" BorderColor="#4A72B1" BorderWidth="1"  CornerRadius="8" Margin="100,30,100,-20" IsVisible="{Binding State}" Command="{Binding BtnDescargas}" />
             <Image HorizontalOptions="CenterAndExpand" Source="sl_espanol"  Margin="0,30,0,0"></Image>

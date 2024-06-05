@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"              
              xmlns:controles="clr-namespace:AppToTripV3.Controles" 
+             xmlns:Recursos="clr-namespace:AppToTripV3.RecursosIdioma"
              x:Class="AppToTripV3.Views.Filtros">
+
 
     <ContentPage.Content>
         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="0">
@@ -17,7 +19,7 @@
                         <ImageButton IsVisible="{Binding BtnAtrasVisible}" Source="atras.png" HorizontalOptions="Start" Padding="8" WidthRequest="35" HeightRequest="35" BackgroundColor="White" Command="{Binding VolverBtn}" BorderWidth="1" 
                         CornerRadius="20" BorderColor="{x:StaticResource Key=GrayPlaceHolder}"/>
 
-                        <ImageButton IsVisible="{Binding BtnCerrarVisible}" Source="ic_equisazul.png" Grid.Column="2" HorizontalOptions="End" Padding="8" WidthRequest="35" HeightRequest="35" BackgroundColor="White" Command="{Binding EquisBtn}" 
+                        <ImageButton IsVisible="{Binding BtnCerrarVisible}" Source="ic_equisAzul.png" Grid.Column="2" HorizontalOptions="End" Padding="8" WidthRequest="35" HeightRequest="35" BackgroundColor="White" Command="{Binding EquisBtn}" 
                         BorderWidth="1" CornerRadius="20" BorderColor="{x:StaticResource Key=GrayPlaceHolder}"/>
                     </Grid>
 
@@ -45,14 +47,14 @@
                                             <TapGestureRecognizer Command="{Binding MacrosBtn}" />
                                         </StackLayout.GestureRecognizers>
                                         <Image Source="ic_direccion.png" WidthRequest="15" Margin="0" BackgroundColor="Transparent" VerticalOptions="CenterAndExpand"/>
-                                        <Label  Margin="0" Padding="0" TextColor="{StaticResource Key=BlueApp}" Text="Macro" IsVisible="true" BackgroundColor="Transparent" HorizontalTextAlignment="Center" FontSize="11" VerticalOptions="CenterAndExpand" />
+                                        <Label  Margin="0" Padding="0" TextColor="{StaticResource Key=BlueApp}" Text="{x:Static Recursos:appRecursos.macro}" IsVisible="true" BackgroundColor="Transparent" HorizontalTextAlignment="Center" FontSize="11" VerticalOptions="CenterAndExpand" />
                                     </StackLayout>
                                 </Frame>
                             </Grid>
                             <Frame HasShadow="False" Margin="0,20,0,0" Padding="10,0,10,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" CornerRadius="15" HeightRequest="50">
-                                <controles:CustomPicker Title="Seleccione una categoria" TitleColor="{StaticResource Key=BlueApp}" Margin="5" FontSize="13" TextColor="{StaticResource Key=BlueApp}" ItemsSource="{Binding ListaCategoria, Mode=TwoWay}"  ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding SelectCategoria}" />
+                                <controles:CustomPicker Title="{x:Static Recursos:appRecursos.seleccioneUnaCategoria}" TitleColor="{StaticResource Key=BlueApp}" Margin="5" FontSize="13" TextColor="{StaticResource Key=BlueApp}" ItemsSource="{Binding ListaCategoria, Mode=TwoWay}"  ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding SelectCategoria}" />
                             </Frame>
-                            <Button Text="Buscar" Margin="0,20,0,20" Padding="0,10,0,10" WidthRequest="150" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding BuscarBtn}" />
+                            <Button Text="{x:Static Recursos:appRecursos.buscar}" Margin="0,20,0,20" Padding="0,10,0,10" WidthRequest="150" CornerRadius="15" HorizontalOptions="Center" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding BuscarBtn}" />
                         </StackLayout>
                     </Grid>
                     <Grid Margin="0,20,0,0" IsVisible="{Binding ConsultasLayout}">
@@ -65,7 +67,7 @@
                         </StackLayout>
 
                         <StackLayout Padding="0,0,20,0" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Spacing="10">
-                            <Button IsVisible="{Binding BtnCercaVisible}" Text="Cerca de mí" Margin="0" Padding="0" WidthRequest="100" CornerRadius="15" HorizontalOptions="EndAndExpand" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding CercamiLayautBtn}" />
+                            <Button IsVisible="{Binding BtnCercaVisible}" Text="{x:Static Recursos:appRecursos.cercaDeMi}" Margin="0" Padding="0" WidthRequest="100" CornerRadius="15" HorizontalOptions="EndAndExpand" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding CercamiLayautBtn}" />
                             <!--<Button IsVisible="{Binding BtnCrearCircVisible}" Text="{x:Static Recursos:appRecursos.crearCircuito}" Margin="0" Padding="0" WidthRequest="100" CornerRadius="15" HorizontalOptions="EndAndExpand" BackgroundColor="{StaticResource Key=BlueApp}" TextColor="White" TextTransform="None" FontSize="13" Command="{Binding AddCircuitBtn}" />-->
                         </StackLayout>
                     </Grid>
@@ -75,7 +77,7 @@
                         </Frame>
                         <StackLayout Padding="10" HeightRequest="180" IsClippedToBounds="True" Spacing="0">
                             <Frame Margin="0,20,0,0" Padding="10,0,10,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" CornerRadius="10" HeightRequest="50">
-                                <controles:CustomPicker Title="Seleccione un macro" TitleColor="{StaticResource Key=BlueApp}" Margin="5" FontSize="13" TextColor="{StaticResource Key=BlueApp}" ItemsSource="{Binding ListaMacros, Mode=TwoWay}" ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding SelectMacros}"/>
+                                <controles:CustomPicker Title="{x:Static Recursos:appRecursos.seleccioneUnMacro}" TitleColor="{StaticResource Key=BlueApp}" Margin="5" FontSize="13" TextColor="{StaticResource Key=BlueApp}" ItemsSource="{Binding ListaMacros, Mode=TwoWay}" ItemDisplayBinding="{Binding Nombre}" SelectedItem="{Binding SelectMacros}"/>
                             </Frame>
                             <Frame HasShadow="False" CornerRadius="15" Grid.Column="1" Margin="0,20,0,0" Padding="20,0,20,0"  BackgroundColor="{StaticResource Key=SemiWhiteApp}" HorizontalOptions="Center">
                                 <StackLayout Padding="0,2,0,2" Margin="0" Spacing="0" HorizontalOptions="Center">
@@ -83,13 +85,13 @@
                                         <TapGestureRecognizer Command="{Binding VolverBtn}" />
                                     </StackLayout.GestureRecognizers>
                                     <Image Source="ic_direccion.png" WidthRequest="15" Margin="0" BackgroundColor="Transparent" VerticalOptions="Center"/>
-                                    <Label  Margin="0" Padding="0" TextColor="{StaticResource Key=BlueApp}" Text="Volver" IsVisible="true" BackgroundColor="Transparent" HorizontalTextAlignment="Center" FontSize="12" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+                                    <Label  Margin="0" Padding="0" TextColor="{StaticResource Key=BlueApp}" Text="{x:Static Recursos:appRecursos.volver}" IsVisible="true" BackgroundColor="Transparent" HorizontalTextAlignment="Center" FontSize="12" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
                                 </StackLayout>
                             </Frame>
                         </StackLayout>
                     </Grid>
 
-                    <!-- ================== CREAR CIRCUITOS ========================== 
+                    <!-- ================== CREAR CIRCUITOS ========================== -->
                     <Grid IsVisible="{Binding CreateCircuit}">
                         <Label>
                             <Label.FormattedText>
@@ -137,14 +139,14 @@
                             </Label.FormattedText>
                         </Label>
                         <Label Padding="0,20,0,0" IsVisible="{Binding SugerenciaLabel}" Text="Te sugerimos dejar el proceso de creación abierto para lograr un circuito más preciso. ¡Así obtendrás mejores resultados!" FontSize="15" TextColor="{StaticResource Key=RedApp}" VerticalOptions="EndAndExpand"/>
-                    </StackLayout>-->
+                    </StackLayout>
                 </StackLayout>
             </ScrollView>
-            <!--<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" BackgroundColor="{StaticResource Key=SemiBlackApp}" IsVisible="{Binding IsBusy}">
                 <Frame VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0" Padding="5" HasShadow="False" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50">
                     <ActivityIndicator IsRunning="true" Color="{StaticResource Key=BlueApp}" HeightRequest="40" WidthRequest="40" IsVisible="{Binding IsBusy}" />
                 </Frame>
-            </StackLayout>-->
+            </StackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
